@@ -1,0 +1,299 @@
+/* ------------------------------------------------------------
+   GLOBAL
+------------------------------------------------------------ */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #000;
+  font-family: Arial, sans-serif;
+  color: #eee;
+}
+
+/* ------------------------------------------------------------
+   HOLOGRAPHIC BORDER (Instagram-style)
+------------------------------------------------------------ */
+.holo-border {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.holo-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 2px;
+  border-radius: inherit;
+  background: linear-gradient(135deg,#ff00ff,#00eaff,#ffdd00,#ff00ff);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  animation: holoShift 4s linear infinite;
+}
+
+@keyframes holoShift {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+/* ------------------------------------------------------------
+   GALAXY CANVAS
+------------------------------------------------------------ */
+#galaxy {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  background: radial-gradient(ellipse at center, rgba(10,10,20,1) 0%, rgba(0,0,0,1) 70%);
+  z-index: 1;
+}
+
+/* ------------------------------------------------------------
+   TRACK TITLE
+------------------------------------------------------------ */
+#track-title {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 0 0 12px #00eaff, 0 0 24px #ff00ff;
+  pointer-events: none;
+  z-index: 20;
+}
+
+/* ------------------------------------------------------------
+   PAGE SWITCH (< 1 >)
+------------------------------------------------------------ */
+.page-switch {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 22px;
+  color: #fff;
+  text-shadow: 0 0 10px #00eaff;
+  user-select: none;
+}
+
+.page-btn {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.page-btn:hover {
+  opacity: 1;
+}
+
+#page-number {
+  font-weight: bold;
+  opacity: 1;
+}
+
+/* ------------------------------------------------------------
+   BOTTOM CONTROL BAR
+------------------------------------------------------------ */
+#bottom-bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 90px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  z-index: 25;
+}
+
+/* ------------------------------------------------------------
+   CENTER CONTROLS
+------------------------------------------------------------ */
+#bottom-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#player-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+/* ------------------------------------------------------------
+   ACTIVE GLOW (Repeat, Shuffle, Related)
+------------------------------------------------------------ */
+#btn-repeat.active,
+#btn-shuffle.active,
+#btn-related.active {
+  color: #ffcc66;
+  filter: drop-shadow(0 0 6px #ffcc66);
+}
+
+#btn-repeat.active svg,
+#btn-shuffle.active svg,
+#btn-related.active svg {
+  fill: #ffcc66;
+  filter: drop-shadow(0 0 6px #ffcc66);
+}
+
+/* ------------------------------------------------------------
+   ICON BUTTONS
+------------------------------------------------------------ */
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.25s;
+  box-shadow: 0 0 8px rgba(0,255,255,0.15);
+}
+
+.icon-btn:hover {
+  background: rgba(255,255,255,0.15);
+  border-color: rgba(0,255,255,0.8);
+  box-shadow: 0 0 14px #00eaff;
+}
+
+.icon-btn svg {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+  pointer-events: none;
+}
+
+#btn-play svg {
+  width: 26px;
+  height: 26px;
+}
+
+/* ------------------------------------------------------------
+   TEXT BUTTONS
+------------------------------------------------------------ */
+.text-btn {
+  padding: 6px 14px;
+  background: rgba(30,30,30,0.7);
+  border: 1px solid rgba(255,255,255,0.25);
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.2s;
+  text-shadow: 0 0 6px #00eaff;
+}
+
+.text-btn:hover {
+  background: rgba(80,80,80,0.9);
+  border-color: rgba(0,255,255,0.6);
+  box-shadow: 0 0 10px #00eaff;
+}
+
+/* ------------------------------------------------------------
+   VIDEO PANEL
+------------------------------------------------------------ */
+#video-panel {
+  position: absolute;
+  bottom: 110px;
+  right: 20px;
+  width: 480px;
+  height: 270px;
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 6px;
+  display: none;
+  box-shadow: 0 0 20px rgba(0,0,0,0.8), 0 0 40px rgba(0,255,255,0.3), 0 0 80px rgba(255,0,255,0.2);
+}
+
+#video-panel video {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background: #000;
+}
+
+/* ------------------------------------------------------------
+   LYRICS PANEL
+------------------------------------------------------------ */
+#lyrics-panel {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 350px;
+  height: 500px;
+  background: rgba(0,0,0,0.6);
+  border: 1px solid #666;
+  border-radius: 10px;
+  padding: 12px;
+  overflow-y: auto;
+  display: none;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  box-shadow: 0 0 20px rgba(0,0,0,0.8), 0 0 40px rgba(255,255,255,0.15);
+  backdrop-filter: blur(6px);
+  z-index: 30;
+  white-space: pre-wrap;
+}
+
+#lyrics-panel::-webkit-scrollbar {
+  width: 8px;
+}
+
+#lyrics-panel::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.3);
+  border-radius: 4px;
+}
+
+#lyrics-panel::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.05);
+}
+
+/* ------------------------------------------------------------
+   RESPONSIVE
+------------------------------------------------------------ */
+@media (max-width: 900px) {
+  #video-panel {
+    width: 90vw;
+    height: 50vw;
+    right: 5vw;
+    bottom: 110px;
+  }
+
+  #lyrics-panel {
+    width: 80vw;
+    height: 60vh;
+    right: 10vw;
+  }
+
+  #bottom-bar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 10px 14px;
+    gap: 10px;
+  }
+
+  #bottom-center {
+    position: static;
+    transform: none;
+  }
+
+  #player-controls {
+    gap: 10px;
+  }
+}

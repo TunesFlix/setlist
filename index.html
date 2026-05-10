@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FloatTunes</title>
+
+  <!-- RESPONSIVE VIEWPORT -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- DESKTOP STYLE -->
+  <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="video.style.css">
+ 
+  <!-- MOBILE STYLE (auto-applies on small screens) -->
+  <link rel="stylesheet" href="FloatTunes.style.css" media="(max-width: 900px)">
+</head>
+
+<body>
+  <!-- 3D GALAXY CANVAS -->
+  <canvas id="galaxy"></canvas>
+
+  <!-- TRACK TITLE -->
+  <div id="track-title"></div>
+
+  <!-- BOTTOM CONTROL BAR -->
+  <div id="bottom-bar">
+
+    <!-- LEFT SIDE -->
+    <div id="bottom-left">
+      <div id="page-switch" class="page-switch">
+        <span id="page-prev" class="page-btn">&lt;</span>
+        <span id="page-number">1</span>
+        <span id="page-next" class="page-btn">&gt;</span>
+      </div>
+    </div>
+
+    <!-- CENTER CONTROLS -->
+    <div id="bottom-center">
+      <div id="player-controls">
+
+        <!-- PREVIOUS -->
+        <button id="btn-prev" class="icon-btn">
+          <svg viewBox="0 0 24 24">
+            <path d="M4 4h2v16H4z"/>
+            <path d="M6 12l12 8V4L6 12z"/>
+          </svg>
+        </button>
+
+        <!-- PLAY -->
+        <button id="btn-play" class="icon-btn">
+          <svg viewBox="0 0 24 24">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+        </button>
+
+        <!-- PAUSE -->
+        <button id="btn-pause" class="icon-btn" style="display:none;">
+          <svg viewBox="0 0 24 24">
+            <path d="M6 5h4v14H6zm8 0h4v14h-4z"/>
+          </svg>
+        </button>
+
+        <!-- NEXT -->
+        <button id="btn-next" class="icon-btn">
+          <svg viewBox="0 0 24 24">
+            <path d="M6 4l12 8-12 8z"/>
+            <path d="M18 4h2v16h-2z"/>
+          </svg>
+        </button>
+
+        <!-- REPEAT -->
+        <button id="btn-repeat" class="icon-btn">
+          <svg viewBox="0 0 24 24">
+            <path d="M17 1l4 4-4 4V6H7a3 3 0 0 0-3 3v1H2V9a5 5 0 0 1 5-5h10V1zm-10 22l-4-4 4-4v3h10a3 3 0 0 0 3-3v-1h2v1a5 5 0 0 1-5 5H7v3z"/>
+          </svg>
+        </button>
+
+        <!-- SHUFFLE -->
+        <button id="btn-shuffle" class="icon-btn">
+          <svg viewBox="0 0 24 24">
+            <path d="M17 3h4v4h-2V5h-2V3zm0 18h4v-4h-2v2h-2v2zM3 6h4l12 12h-4L3 6zm0 12h4l4-4-2-2-6 6z"/>
+          </svg>
+        </button>
+
+        <!-- LYRICS + RELATED -->
+        <button id="btn-lyrics" class="text-btn">Lyrics</button>
+        <button id="btn-related" class="text-btn">Related</button>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div id="video-panel">
+  <div id="video-close">✕</div>
+  <video id="video" controls playsinline></video>
+  </div>
+
+  <!-- LYRICS PANEL -->
+  <div id="lyrics-panel"></div>
+
+  <!-- AUDIO ELEMENT -->
+  <audio id="audio"></audio>
+
+  <!-- THREE.JS -->
+  <script src="three.min.js"></script>
+  <script src="OrbitControls.js"></script>
+
+  <!-- CORE MODULES -->
+  <script src="clouds.js"></script>
+  <script src="cluster.js"></script>
+  <script src="audio.js"></script>
+  <script src="ui.js"></script>
+  <script src="progress.js"></script>
+  <script src="raycast.js"></script>
+  <script src="movement.js"></script>
+  <script src="cover.js"></script>
+  <script src="cluster.page.js"></script>
+  <script src="video.js"></script>
+
+
+  <!-- MOBILE ENGINE (auto-detects mobile) -->
+  <script src="FloatTunes.mobile.js"></script>
+
+  <!-- CORE ENGINE -->
+  <script src="app.js"></script>
+</body>
+</html>

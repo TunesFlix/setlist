@@ -1,0 +1,140 @@
+/* ------------------------------------------------------------
+   VIDEO PANEL — FLOATTUNES GALAXY
+   Cinematic floating window for MP4 playback
+------------------------------------------------------------ */
+
+#video-panel {
+  display: none;                 /* Hidden until VideoMod.show() */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  width: 480px;
+  height: 270px;                 /* 16:9 aspect ratio */
+
+  background: black;
+  border-radius: 10px;
+  overflow: hidden;
+
+  z-index: 99999;                /* Above galaxy + UI */
+  box-shadow: 0 0 25px rgba(0,0,0,0.6);
+
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+#video-panel.show {
+  opacity: 1;
+}
+
+/* ------------------------------------------------------------
+   VIDEO ELEMENT
+------------------------------------------------------------ */
+
+#video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;           /* Prevent stretching */
+  background: black;
+
+  display: block;
+}
+
+/* ------------------------------------------------------------
+   MOBILE OVERRIDES
+------------------------------------------------------------ */
+
+@media (max-width: 768px) {
+  #video-panel {
+    bottom: 10px;
+    right: 10px;
+    width: 90vw;
+    height: 50vw;                /* Maintain 16:9 ratio */
+    border-radius: 8px;
+  }
+}
+
+/* ------------------------------------------------------------
+   MOBILE VIDEO PANEL — ABOVE FOOTER
+------------------------------------------------------------ */
+
+@media (max-width: 768px) {
+
+  #video-panel {
+    position: fixed;
+    bottom: calc(100px + 10px);   /* 10px gap above footer */
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 92vw;
+    height: 52vw;                 /* 16:9 ratio */
+
+    background: black;
+    border-radius: 10px;
+    overflow: hidden;
+
+    z-index: 999999;              /* ABOVE ALL MOBILE UI */
+    display: none;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+  }
+
+  #video-panel.show {
+    display: block;
+    opacity: 1;
+  }
+
+  #video-panel:not(.show) {
+    pointer-events: none;         /* Prevent blocking taps */
+  }
+
+  #video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: black;
+  }
+}
+
+/* ------------------------------------------------------------
+   VIDEO CLOSE BUTTON
+------------------------------------------------------------ */
+
+#video-close {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+
+  width: 32px;
+  height: 32px;
+
+  background: rgba(0,0,0,0.55);
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 32px;
+  text-align: center;
+
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 1000000;
+  user-select: none;
+  backdrop-filter: blur(4px);
+  transition: background 0.2s ease;
+}
+
+#video-close:hover {
+  background: rgba(0,0,0,0.75);
+}
+
+/* Mobile: slightly bigger for thumb */
+@media (max-width: 768px) {
+  #video-close {
+    width: 38px;
+    height: 38px;
+    font-size: 26px;
+    line-height: 38px;
+    top: 8px;
+    right: 10px;
+  }
+}
