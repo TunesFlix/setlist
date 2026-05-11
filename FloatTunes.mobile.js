@@ -12,70 +12,62 @@ window.FloatTunesMobile = {
   draggingCluster: false,
   dragTarget: null,
   longPressTimer: null,
+  movedSinceStart: false,
 
   // ------------------------------------------------------------
   // INIT
-// ------------------------------------------------------------
-// INIT
-// ------------------------------------------------------------
-init(app) {
-  this.app = app;
-  this.enabled = this.isMobile();
-  if (!this.enabled) return;
+  // ------------------------------------------------------------
+  init(app) {
+    this.app = app;
+    this.enabled = this.isMobile();
+    if (!this.enabled) return;
 
-  console.log("FloatTunes Mobile Mode Enabled");
+    console.log("FloatTunes Mobile Mode Enabled");
 
-  // ⭐ Keep OrbitControls but disable zoom/pan
-  app.controls.enableZoom = false;
-  app.controls.enablePan = false;
+    // Desktop OrbitControls already handle rotation + wheel zoom.
+    // On mobile we just call controls.rotateLeft/rotateUp from our touch layer.
+    // Do NOT override rotateLeft/rotateUp here.
 
-  // ⭐ Ensure sphericalDelta exists (fixes undefined error)
-  if (!app.controls.sphericalDelta) {
-    app.controls.sphericalDelta = { theta: 0, phi: 0 };
-  }
+    // If you want to disable wheel zoom on mobile only, you can do it via CSS
+    // or a UA check around wheel, but we leave desktop logic untouched.
 
-  // ⭐ Patch OrbitControls to support rotateLeft/rotateUp
-  app.controls.rotateLeft = function(angle) {
-    this.sphericalDelta.theta -= angle;
-  };
+    this.enableTouchCamera(app);
+    this.enableTouchTap(app);
+    this.enablePinchZoom(app);
 
-  app.controls.rotateUp = function(angle) {
-    this.sphericalDelta.phi -= angle;
-  };
-
-  // ⭐ Enable mobile gesture systems
-  this.enableTouchCamera(app);
-  this.enableTouchTap(app);
-  this.enablePinchZoom(app);
-
-  // ⭐ Prevent ghost desktop click ONLY on the canvas
-  app.renderer.domElement.addEventListener("click", e => {
-    if (this.enabled) e.stopImmediatePropagation();
-  }, true);
-},
+    // Prevent ghost desktop click ONLY on the canvas
+    app.renderer.domElement.addEventListener(
+      "click",
+      e => {
+        if (this.enabled) e.stopImmediatePropagation();
+      },
+      true
+    );
+  },
 
   // ------------------------------------------------------------
   // MOBILE DETECTION
   // ------------------------------------------------------------
   isMobile() {
-  return ('ontouchstart' in window) || navigator.maxTouchPoints > 0;
-},
+    return ("ontouchstart" in window) || navigator.maxTouchPoints > 0;
+  },
 
   // ------------------------------------------------------------
   // COVER → NODE RESOLVER
   // ------------------------------------------------------------
   resolveNode(obj) {
-    if (obj.userData?.type === "bandCover" ||
-        obj.userData?.type === "albumCover" ||
-        obj.userData?.type === "trackCover") {
-
+    if (
+      obj.userData?.type === "bandCover" ||
+      obj.userData?.type === "albumCover" ||
+      obj.userData?.type === "trackCover"
+    ) {
       if (obj.parent?.userData?.type) return obj.parent;
     }
     return obj;
   },
 
   // ------------------------------------------------------------
-  // TOUCH CAMERA LOOK (DESKTOP LEFT‑CLICK BEHAVIOR)
+  // TOUCH CAMERA LOOK + LONG PRESS DRAG
   // ------------------------------------------------------------
   enableTouchCamera(app) {
     const canvas = app.renderer.domElement;
@@ -88,14 +80,22 @@ init(app) {
       this.touchLastY = t.clientY;
 
       this.draggingCamera = true;
+      this.draggingCluster = false;
+      this.dragTarget = null;
+      this.movedSinceStart = false;
 
-      // long press → cluster drag
+      // arm long press → cluster drag
       this.longPressTimer = setTimeout(() => {
-        this.tryStartClusterDrag(app, t.clientX, t.clientY);
+        if (!this.movedSinceStart) {
+          this.tryStartClusterDrag(app, t.clientX, t.clientY);
+        }
       }, 450);
     });
 
     canvas.addEventListener("touchmove", e => {
+      console.log("TOUCHMOVE", e.touches[0].clientX, e.touches[0].clientY);
+      e.preventDefault();
+
       if (!this.draggingCamera || e.touches.length !== 1) return;
 
       const t = e.touches[0];
@@ -105,13 +105,17 @@ init(app) {
       this.touchLastX = t.clientX;
       this.touchLastY = t.clientY;
 
+      // any movement cancels long‑press
+      this.movedSinceStart = true;
+      clearTimeout(this.longPressTimer);
+
       // dragging a cluster?
       if (this.draggingCluster && this.dragTarget) {
         this.moveCluster(app, dx, dy);
         return;
       }
 
-      // ⭐ EXACT DESKTOP LEFT‑CLICK BEHAVIOR
+      // ⭐ Rotate camera using OrbitControls' public API
       const rotSpeed = 0.005;
       app.controls.rotateLeft(dx * rotSpeed);
       app.controls.rotateUp(dy * rotSpeed);
@@ -126,21 +130,30 @@ init(app) {
   },
 
   // ------------------------------------------------------------
-  // LONG PRESS → DRAG BAND CLUSTER
+  // LONG PRESS → DRAG BAND CLUSTER (VISIBLE ONLY)
   // ------------------------------------------------------------
   tryStartClusterDrag(app, x, y) {
     app.mouse.x = (x / innerWidth) * 2 - 1;
     app.mouse.y = -(y / innerHeight) * 2 + 1;
 
     app.raycaster.setFromCamera(app.mouse, app.camera);
-    const hits = app.raycaster.intersectObjects(app.scene.children, true);
-    if (hits.length === 0) return;
+
+    const visibleNodes = ClusterMod.nodes.filter(n => n.visible === true);
+    const hits = app.raycaster.intersectObjects(visibleNodes, true);
+    if (hits.length === 0) {
+      this.draggingCluster = false;
+      this.dragTarget = null;
+      return;
+    }
 
     let obj = this.resolveNode(hits[0].object);
 
     if (obj.userData?.type === "band") {
       this.draggingCluster = true;
       this.dragTarget = obj;
+    } else {
+      this.draggingCluster = false;
+      this.dragTarget = null;
     }
   },
 
@@ -163,7 +176,7 @@ init(app) {
   },
 
   // ------------------------------------------------------------
-  // TAP → EXPAND BAND / ALBUM / PLAY TRACK
+  // TAP → EXPAND BAND / ALBUM / PLAY TRACK (VISIBLE ONLY)
   // ------------------------------------------------------------
   enableTouchTap(app) {
     const canvas = app.renderer.domElement;
@@ -179,7 +192,9 @@ init(app) {
       app.mouse.y = -(y / innerHeight) * 2 + 1;
 
       app.raycaster.setFromCamera(app.mouse, app.camera);
-      const hits = app.raycaster.intersectObjects(app.scene.children, true);
+
+      const visibleNodes = ClusterMod.nodes.filter(n => n.visible === true);
+      const hits = app.raycaster.intersectObjects(visibleNodes, true);
       if (hits.length === 0) return;
 
       let obj = this.resolveNode(hits[0].object);
@@ -238,7 +253,6 @@ this.applyMobileFooterLayout = function () {
   const bar = document.getElementById("bottom-bar");
   if (!bar) return;
 
-  // Create wrapper rows
   const rowControls = document.createElement("div");
   rowControls.id = "mobile-row-controls";
 
@@ -248,13 +262,11 @@ this.applyMobileFooterLayout = function () {
   const rowPage = document.createElement("div");
   rowPage.id = "mobile-row-page";
 
-  // Grab existing elements
   const controls = document.getElementById("player-controls");
   const btnLyrics = document.getElementById("btn-lyrics");
   const btnRelated = document.getElementById("btn-related");
   const pageSwitch = document.getElementById("page-switch");
 
-  // Fill rows in correct order
   if (controls) rowControls.appendChild(controls);
   if (btnLyrics && btnRelated) {
     rowLyrics.appendChild(btnLyrics);
@@ -262,19 +274,14 @@ this.applyMobileFooterLayout = function () {
   }
   if (pageSwitch) rowPage.appendChild(pageSwitch);
 
-  // Clear bottom-bar and rebuild for mobile
   bar.innerHTML = "";
   bar.appendChild(rowControls);
   bar.appendChild(rowLyrics);
   bar.appendChild(rowPage);
 
-  // Add mobile class for CSS
   bar.classList.add("mobile-footer");
 };
 
-// ------------------------------------------------------------
-// RUN ONLY ON MOBILE DEVICES
-// ------------------------------------------------------------
 const isMobile =
   window.matchMedia("(max-width: 900px)").matches ||
   "ontouchstart" in window ||

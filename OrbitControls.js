@@ -1,9 +1,9 @@
-// ------------------------------------------------------------
+/ ------------------------------------------------------------
 // Custom OrbitControls (FloatTunes)
 //   - Left mouse: orbit
 //   - Wheel: zoom
 //   - No right mouse handling (free for MovementMod)
-//   - controls.target, controls.update()
+//   - Exposes: controls.target, controls.update()
 // ------------------------------------------------------------
 (function () {
 
@@ -31,6 +31,15 @@
     const offset = new THREE.Vector3().copy(this.camera.position).sub(this.target);
     this._spherical.setFromVector3(offset);
 
+    // ⭐ PUBLIC MOBILE ROTATION API
+    this.rotateLeft = (angle) => {
+      this._sphericalDelta.theta -= angle;
+    };
+
+    this.rotateUp = (angle) => {
+      this._sphericalDelta.phi -= angle;
+    };
+
     // Bind handlers
     this._onMouseDown = this._onMouseDown.bind(this);
     this._onMouseMove = this._onMouseMove.bind(this);
@@ -51,13 +60,11 @@
   };
 
   OrbitControls.prototype._onMouseDown = function (e) {
-    // LEFT button → orbit
     if (e.button === 0) {
       this._state = "rotate";
       this._lastX = e.clientX;
       this._lastY = e.clientY;
     }
-    // Do NOT handle right button here → MovementMod uses it
   };
 
   OrbitControls.prototype._onMouseMove = function (e) {
@@ -103,7 +110,6 @@
     this.camera.lookAt(this.target);
   };
 
-  // Attach to THREE namespace so existing code still uses THREE.OrbitControls
   THREE.OrbitControls = OrbitControls;
 
 })();
