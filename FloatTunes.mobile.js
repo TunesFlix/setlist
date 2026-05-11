@@ -93,7 +93,6 @@ window.FloatTunesMobile = {
     });
 
     canvas.addEventListener("touchmove", e => {
-      console.log("TOUCHMOVE", e.touches[0].clientX, e.touches[0].clientY);
       e.preventDefault();
 
       if (!this.draggingCamera || e.touches.length !== 1) return;
