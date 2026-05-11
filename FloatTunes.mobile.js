@@ -1,1 +1,285 @@
-function a6_0x1397(_0x4ba446,_0xc7644a){_0x4ba446=_0x4ba446-0xd2;const _0x28da36=a6_0x28da();let _0x13977b=_0x28da36[_0x4ba446];return _0x13977b;}const a6_0x5135d6=a6_0x1397;function a6_0x28da(){const _0x5c7e92=['update','longPressTimer','ontouchstart','resolveNode','Vector3','draggingCluster','1GmEjaB','226956BQbqiI','325266xJarkL','changedTouches','mobile-row-controls','children','userData','btn-lyrics','addEventListener','scene','rotateLeft','sphericalDelta','renderer','tryStartClusterDrag','1449090gIvTWP','bottom-bar','app','maxTouchPoints','enablePinchZoom','btn-related','innerHTML','add','4068500cqzFiZ','mouse','draggingCamera','createElement','isTrack','page-switch','dragTarget','mobile-footer','phi','domElement','albumCover','touches','touchLastY','enableZoom','position','type','classList','touchmove','25222758ammPyJ','forEach','FloatTunes\x20Mobile\x20Mode\x20Enabled','trackCover','(max-width:\x20900px)','length','mobile-row-page','matchMedia','119nxZcFY','moveCluster','enablePan','rotateUp','matches','raycaster','div','27iXShvD','clientX','enableTouchTap','appendChild','clientY','isMobile','camera','player-controls','54xBpxwx','touchend','parent','getWorldDirection','enableTouchCamera','object','callback','click','enabled','touchLastX','getElementById','sqrt','intersectObjects','493496iUridQ','controls','1971754DhYpye','applyMobileFooterLayout','touchstart'];a6_0x28da=function(){return _0x5c7e92;};return a6_0x28da();}(function(_0x5bf5e0,_0x372e56){const _0x430fda=a6_0x1397,_0x5c9734=_0x5bf5e0();while(!![]){try{const _0x51943b=-parseInt(_0x430fda(0xe0))/0x1*(-parseInt(_0x430fda(0xd7))/0x2)+-parseInt(_0x430fda(0x11f))/0x3*(parseInt(_0x430fda(0xe1))/0x4)+-parseInt(_0x430fda(0xf6))/0x5+parseInt(_0x430fda(0xe2))/0x6*(-parseInt(_0x430fda(0x110))/0x7)+parseInt(_0x430fda(0xd5))/0x8*(parseInt(_0x430fda(0x117))/0x9)+-parseInt(_0x430fda(0xee))/0xa+parseInt(_0x430fda(0x108))/0xb;if(_0x51943b===_0x372e56)break;else _0x5c9734['push'](_0x5c9734['shift']());}catch(_0x15c3f7){_0x5c9734['push'](_0x5c9734['shift']());}}}(a6_0x28da,0x894f2),window['FloatTunesMobile']={'enabled':![],'app':null,'touchLastX':0x0,'touchLastY':0x0,'draggingCamera':![],'draggingCluster':![],'dragTarget':null,'longPressTimer':null,'init'(_0x458949){const _0x5412cf=a6_0x1397;this[_0x5412cf(0xf0)]=_0x458949,this['enabled']=this[_0x5412cf(0x11c)]();if(!this[_0x5412cf(0x127)])return;console['log'](_0x5412cf(0x10a)),_0x458949[_0x5412cf(0xd6)][_0x5412cf(0x103)]=![],_0x458949['controls'][_0x5412cf(0x112)]=![],!_0x458949['controls'][_0x5412cf(0xeb)]&&(_0x458949[_0x5412cf(0xd6)]['sphericalDelta']={'theta':0x0,'phi':0x0}),_0x458949[_0x5412cf(0xd6)][_0x5412cf(0xea)]=function(_0x3f5737){const _0x16d0bd=_0x5412cf;this[_0x16d0bd(0xeb)]['theta']-=_0x3f5737;},_0x458949[_0x5412cf(0xd6)]['rotateUp']=function(_0x5cb0a5){const _0x4f9d61=_0x5412cf;this[_0x4f9d61(0xeb)][_0x4f9d61(0xfe)]-=_0x5cb0a5;},this[_0x5412cf(0x123)](_0x458949),this[_0x5412cf(0x119)](_0x458949),this[_0x5412cf(0xf2)](_0x458949),_0x458949['renderer'][_0x5412cf(0xff)][_0x5412cf(0xe8)](_0x5412cf(0x126),_0x32d3a5=>{const _0xc4871e=_0x5412cf;if(this[_0xc4871e(0x127)])_0x32d3a5['stopImmediatePropagation']();},!![]);},'isMobile'(){const _0x48fad5=a6_0x1397;return _0x48fad5(0xdc)in window||navigator[_0x48fad5(0xf1)]>0x0;},'resolveNode'(_0x5e78ce){const _0x36c71c=a6_0x1397;if(_0x5e78ce[_0x36c71c(0xe6)]?.['type']==='bandCover'||_0x5e78ce[_0x36c71c(0xe6)]?.[_0x36c71c(0x105)]===_0x36c71c(0x100)||_0x5e78ce[_0x36c71c(0xe6)]?.['type']===_0x36c71c(0x10b)){if(_0x5e78ce[_0x36c71c(0x121)]?.[_0x36c71c(0xe6)]?.[_0x36c71c(0x105)])return _0x5e78ce[_0x36c71c(0x121)];}return _0x5e78ce;},'enableTouchCamera'(_0x4461da){const _0x422c4a=a6_0x1397,_0x2fa8b0=_0x4461da['renderer'][_0x422c4a(0xff)];_0x2fa8b0['addEventListener'](_0x422c4a(0xd9),_0x5a8324=>{const _0x1bef3e=_0x422c4a;if(_0x5a8324['touches'][_0x1bef3e(0x10d)]!==0x1)return;const _0x24421f=_0x5a8324[_0x1bef3e(0x101)][0x0];this['touchLastX']=_0x24421f[_0x1bef3e(0x118)],this[_0x1bef3e(0x102)]=_0x24421f[_0x1bef3e(0x11b)],this[_0x1bef3e(0xf8)]=!![],this[_0x1bef3e(0xdb)]=setTimeout(()=>{const _0x5bf477=_0x1bef3e;this[_0x5bf477(0xed)](_0x4461da,_0x24421f[_0x5bf477(0x118)],_0x24421f['clientY']);},0x1c2);}),_0x2fa8b0['addEventListener'](_0x422c4a(0x107),_0x1d0cc9=>{const _0x59d7f9=_0x422c4a;if(!this['draggingCamera']||_0x1d0cc9['touches'][_0x59d7f9(0x10d)]!==0x1)return;const _0x3548df=_0x1d0cc9['touches'][0x0],_0x5d9fff=_0x3548df[_0x59d7f9(0x118)]-this[_0x59d7f9(0x128)],_0x1b7ca1=_0x3548df[_0x59d7f9(0x11b)]-this[_0x59d7f9(0x102)];this[_0x59d7f9(0x128)]=_0x3548df['clientX'],this[_0x59d7f9(0x102)]=_0x3548df[_0x59d7f9(0x11b)];if(this['draggingCluster']&&this['dragTarget']){this[_0x59d7f9(0x111)](_0x4461da,_0x5d9fff,_0x1b7ca1);return;}const _0x149989=0.005;_0x4461da[_0x59d7f9(0xd6)][_0x59d7f9(0xea)](_0x5d9fff*_0x149989),_0x4461da[_0x59d7f9(0xd6)][_0x59d7f9(0x113)](_0x1b7ca1*_0x149989);}),_0x2fa8b0[_0x422c4a(0xe8)](_0x422c4a(0x120),()=>{const _0x594321=_0x422c4a;this[_0x594321(0xf8)]=![],this['draggingCluster']=![],this[_0x594321(0xfc)]=null,clearTimeout(this[_0x594321(0xdb)]);});},'tryStartClusterDrag'(_0x577ca9,_0x2b0bc3,_0x5cc13d){const _0x59697a=a6_0x1397;_0x577ca9['mouse']['x']=_0x2b0bc3/ innerWidth*0x2-0x1,_0x577ca9[_0x59697a(0xf7)]['y']=-(_0x5cc13d/ innerHeight)*0x2+0x1,_0x577ca9['raycaster']['setFromCamera'](_0x577ca9['mouse'],_0x577ca9['camera']);const _0x195303=_0x577ca9[_0x59697a(0x115)][_0x59697a(0xd4)](_0x577ca9[_0x59697a(0xe9)][_0x59697a(0xe5)],!![]);if(_0x195303['length']===0x0)return;let _0x6cb531=this[_0x59697a(0xdd)](_0x195303[0x0][_0x59697a(0x124)]);_0x6cb531[_0x59697a(0xe6)]?.['type']==='band'&&(this[_0x59697a(0xdf)]=!![],this[_0x59697a(0xfc)]=_0x6cb531);},'moveCluster'(_0x5c28b6,_0x40f6b9,_0x32b74a){const _0x336832=a6_0x1397;if(!this[_0x336832(0xfc)])return;const _0x57dc39=0.15,_0x56cb6a=new THREE['Vector3'](_0x40f6b9*_0x57dc39,-_0x32b74a*_0x57dc39,0x0);this['dragTarget'][_0x336832(0x104)][_0x336832(0xf5)](_0x56cb6a),this[_0x336832(0xfc)][_0x336832(0xe6)][_0x336832(0xe5)][_0x336832(0x109)](_0x52f37b=>{const _0x5b1b87=_0x336832;_0x52f37b[_0x5b1b87(0x104)][_0x5b1b87(0xf5)](_0x56cb6a),_0x52f37b[_0x5b1b87(0xe6)][_0x5b1b87(0xe5)][_0x5b1b87(0x109)](_0x53f12f=>{const _0x84f265=_0x5b1b87;_0x53f12f[_0x84f265(0x104)][_0x84f265(0xf5)](_0x56cb6a);});}),ClusterMod[_0x336832(0xda)](_0x5c28b6,0x0);},'enableTouchTap'(_0x2019f8){const _0x326435=a6_0x1397,_0x4ebe21=_0x2019f8[_0x326435(0xec)][_0x326435(0xff)];_0x4ebe21[_0x326435(0xe8)](_0x326435(0x120),_0x13fe97=>{const _0x3b22a6=_0x326435;if(this['draggingCluster'])return;const _0x537902=_0x13fe97[_0x3b22a6(0xe3)][0x0],_0x4dfcee=_0x537902['clientX'],_0x297faf=_0x537902[_0x3b22a6(0x11b)];_0x2019f8[_0x3b22a6(0xf7)]['x']=_0x4dfcee/ innerWidth*0x2-0x1,_0x2019f8[_0x3b22a6(0xf7)]['y']=-(_0x297faf/ innerHeight)*0x2+0x1,_0x2019f8[_0x3b22a6(0x115)]['setFromCamera'](_0x2019f8[_0x3b22a6(0xf7)],_0x2019f8[_0x3b22a6(0x11d)]);const _0x2fc1d8=_0x2019f8[_0x3b22a6(0x115)][_0x3b22a6(0xd4)](_0x2019f8[_0x3b22a6(0xe9)]['children'],!![]);if(_0x2fc1d8[_0x3b22a6(0x10d)]===0x0)return;let _0xaddea1=this[_0x3b22a6(0xdd)](_0x2fc1d8[0x0]['object']);if(_0xaddea1[_0x3b22a6(0xfa)]){_0xaddea1['callback']&&_0xaddea1[_0x3b22a6(0x125)]();return;}if(_0xaddea1[_0x3b22a6(0x125)]){_0xaddea1[_0x3b22a6(0x125)]();return;}});},'enablePinchZoom'(_0x4b00d8){const _0x476984=a6_0x1397,_0x41c42c=_0x4b00d8['renderer'][_0x476984(0xff)];let _0x533375=0x0;_0x41c42c[_0x476984(0xe8)](_0x476984(0x107),_0x568beb=>{const _0x22b339=_0x476984;if(_0x568beb[_0x22b339(0x101)]['length']!==0x2)return;const _0x35afb9=_0x568beb[_0x22b339(0x101)][0x0][_0x22b339(0x118)]-_0x568beb[_0x22b339(0x101)][0x1][_0x22b339(0x118)],_0x398a86=_0x568beb[_0x22b339(0x101)][0x0][_0x22b339(0x11b)]-_0x568beb[_0x22b339(0x101)][0x1][_0x22b339(0x11b)],_0x1ed5c2=Math[_0x22b339(0xd3)](_0x35afb9*_0x35afb9+_0x398a86*_0x398a86);if(_0x533375===0x0){_0x533375=_0x1ed5c2;return;}const _0x1f356e=_0x1ed5c2-_0x533375;_0x533375=_0x1ed5c2;const _0x25bee0=0.5;_0x4b00d8[_0x22b339(0x11d)]['position']['addScaledVector'](_0x4b00d8['camera'][_0x22b339(0x122)](new THREE[(_0x22b339(0xde))]()),-_0x1f356e*_0x25bee0);}),_0x41c42c[_0x476984(0xe8)]('touchend',()=>{_0x533375=0x0;});}},this[a6_0x5135d6(0xd8)]=function(){const _0x162206=a6_0x5135d6,_0x2d03cd=document[_0x162206(0xd2)](_0x162206(0xef));if(!_0x2d03cd)return;const _0x19bffb=document[_0x162206(0xf9)](_0x162206(0x116));_0x19bffb['id']=_0x162206(0xe4);const _0x3c0011=document[_0x162206(0xf9)](_0x162206(0x116));_0x3c0011['id']='mobile-row-lyrics';const _0x172838=document[_0x162206(0xf9)](_0x162206(0x116));_0x172838['id']=_0x162206(0x10e);const _0x3ad697=document['getElementById'](_0x162206(0x11e)),_0x747e1d=document[_0x162206(0xd2)](_0x162206(0xe7)),_0x35dd3f=document[_0x162206(0xd2)](_0x162206(0xf3)),_0x589b77=document['getElementById'](_0x162206(0xfb));if(_0x3ad697)_0x19bffb[_0x162206(0x11a)](_0x3ad697);_0x747e1d&&_0x35dd3f&&(_0x3c0011[_0x162206(0x11a)](_0x747e1d),_0x3c0011[_0x162206(0x11a)](_0x35dd3f));if(_0x589b77)_0x172838[_0x162206(0x11a)](_0x589b77);_0x2d03cd[_0x162206(0xf4)]='',_0x2d03cd[_0x162206(0x11a)](_0x19bffb),_0x2d03cd[_0x162206(0x11a)](_0x3c0011),_0x2d03cd[_0x162206(0x11a)](_0x172838),_0x2d03cd[_0x162206(0x106)]['add'](_0x162206(0xfd));});const isMobile=window[a6_0x5135d6(0x10f)](a6_0x5135d6(0x10c))[a6_0x5135d6(0x114)]||a6_0x5135d6(0xdc)in window||navigator[a6_0x5135d6(0xf1)]>0x0;isMobile&&this[a6_0x5135d6(0xd8)]();
+// ------------------------------------------------------------
+// FloatTunes.mobile.js — Mobile Input Layer (Touch + Gestures)
+// ------------------------------------------------------------
+window.FloatTunesMobile = {
+  enabled: false,
+  app: null,
+
+  // touch state
+  touchLastX: 0,
+  touchLastY: 0,
+  draggingCamera: false,
+  draggingCluster: false,
+  dragTarget: null,
+  longPressTimer: null,
+
+  // ------------------------------------------------------------
+  // INIT
+// ------------------------------------------------------------
+// INIT
+// ------------------------------------------------------------
+init(app) {
+  this.app = app;
+  this.enabled = this.isMobile();
+  if (!this.enabled) return;
+
+  console.log("FloatTunes Mobile Mode Enabled");
+
+  // ⭐ Keep OrbitControls but disable zoom/pan
+  app.controls.enableZoom = false;
+  app.controls.enablePan = false;
+
+  // ⭐ Ensure sphericalDelta exists (fixes undefined error)
+  if (!app.controls.sphericalDelta) {
+    app.controls.sphericalDelta = { theta: 0, phi: 0 };
+  }
+
+  // ⭐ Patch OrbitControls to support rotateLeft/rotateUp
+  app.controls.rotateLeft = function(angle) {
+    this.sphericalDelta.theta -= angle;
+  };
+
+  app.controls.rotateUp = function(angle) {
+    this.sphericalDelta.phi -= angle;
+  };
+
+  // ⭐ Enable mobile gesture systems
+  this.enableTouchCamera(app);
+  this.enableTouchTap(app);
+  this.enablePinchZoom(app);
+
+  // ⭐ Prevent ghost desktop click ONLY on the canvas
+  app.renderer.domElement.addEventListener("click", e => {
+    if (this.enabled) e.stopImmediatePropagation();
+  }, true);
+},
+
+  // ------------------------------------------------------------
+  // MOBILE DETECTION
+  // ------------------------------------------------------------
+  isMobile() {
+  return ('ontouchstart' in window) || navigator.maxTouchPoints > 0;
+},
+
+  // ------------------------------------------------------------
+  // COVER → NODE RESOLVER
+  // ------------------------------------------------------------
+  resolveNode(obj) {
+    if (obj.userData?.type === "bandCover" ||
+        obj.userData?.type === "albumCover" ||
+        obj.userData?.type === "trackCover") {
+
+      if (obj.parent?.userData?.type) return obj.parent;
+    }
+    return obj;
+  },
+
+  // ------------------------------------------------------------
+  // TOUCH CAMERA LOOK (DESKTOP LEFT‑CLICK BEHAVIOR)
+  // ------------------------------------------------------------
+  enableTouchCamera(app) {
+    const canvas = app.renderer.domElement;
+
+    canvas.addEventListener("touchstart", e => {
+      if (e.touches.length !== 1) return;
+
+      const t = e.touches[0];
+      this.touchLastX = t.clientX;
+      this.touchLastY = t.clientY;
+
+      this.draggingCamera = true;
+
+      // long press → cluster drag
+      this.longPressTimer = setTimeout(() => {
+        this.tryStartClusterDrag(app, t.clientX, t.clientY);
+      }, 450);
+    });
+
+    canvas.addEventListener("touchmove", e => {
+      if (!this.draggingCamera || e.touches.length !== 1) return;
+
+      const t = e.touches[0];
+      const dx = t.clientX - this.touchLastX;
+      const dy = t.clientY - this.touchLastY;
+
+      this.touchLastX = t.clientX;
+      this.touchLastY = t.clientY;
+
+      // dragging a cluster?
+      if (this.draggingCluster && this.dragTarget) {
+        this.moveCluster(app, dx, dy);
+        return;
+      }
+
+      // ⭐ EXACT DESKTOP LEFT‑CLICK BEHAVIOR
+      const rotSpeed = 0.005;
+      app.controls.rotateLeft(dx * rotSpeed);
+      app.controls.rotateUp(dy * rotSpeed);
+    });
+
+    canvas.addEventListener("touchend", () => {
+      this.draggingCamera = false;
+      this.draggingCluster = false;
+      this.dragTarget = null;
+      clearTimeout(this.longPressTimer);
+    });
+  },
+
+  // ------------------------------------------------------------
+  // LONG PRESS → DRAG BAND CLUSTER
+  // ------------------------------------------------------------
+  tryStartClusterDrag(app, x, y) {
+    app.mouse.x = (x / innerWidth) * 2 - 1;
+    app.mouse.y = -(y / innerHeight) * 2 + 1;
+
+    app.raycaster.setFromCamera(app.mouse, app.camera);
+    const hits = app.raycaster.intersectObjects(app.scene.children, true);
+    if (hits.length === 0) return;
+
+    let obj = this.resolveNode(hits[0].object);
+
+    if (obj.userData?.type === "band") {
+      this.draggingCluster = true;
+      this.dragTarget = obj;
+    }
+  },
+
+  moveCluster(app, dx, dy) {
+    if (!this.dragTarget) return;
+
+    const moveScale = 0.15;
+    const move = new THREE.Vector3(dx * moveScale, -dy * moveScale, 0);
+
+    this.dragTarget.position.add(move);
+
+    this.dragTarget.userData.children.forEach(albumNode => {
+      albumNode.position.add(move);
+      albumNode.userData.children.forEach(trackNode => {
+        trackNode.position.add(move);
+      });
+    });
+
+    ClusterMod.update(app, 0);
+  },
+
+  // ------------------------------------------------------------
+  // TAP → EXPAND BAND / ALBUM / PLAY TRACK
+  // ------------------------------------------------------------
+  enableTouchTap(app) {
+    const canvas = app.renderer.domElement;
+
+    canvas.addEventListener("touchend", e => {
+      if (this.draggingCluster) return;
+
+      const t = e.changedTouches[0];
+      const x = t.clientX;
+      const y = t.clientY;
+
+      app.mouse.x = (x / innerWidth) * 2 - 1;
+      app.mouse.y = -(y / innerHeight) * 2 + 1;
+
+      app.raycaster.setFromCamera(app.mouse, app.camera);
+      const hits = app.raycaster.intersectObjects(app.scene.children, true);
+      if (hits.length === 0) return;
+
+      let obj = this.resolveNode(hits[0].object);
+
+      if (obj.isTrack) {
+        obj.callback && obj.callback();
+        return;
+      }
+
+      if (obj.callback) {
+        obj.callback();
+        return;
+      }
+    });
+  },
+
+  // ------------------------------------------------------------
+  // PINCH TO ZOOM
+  // ------------------------------------------------------------
+  enablePinchZoom(app) {
+    const canvas = app.renderer.domElement;
+    let lastDist = 0;
+
+    canvas.addEventListener("touchmove", e => {
+      if (e.touches.length !== 2) return;
+
+      const dx = e.touches[0].clientX - e.touches[1].clientX;
+      const dy = e.touches[0].clientY - e.touches[1].clientY;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+
+      if (lastDist === 0) {
+        lastDist = dist;
+        return;
+      }
+
+      const delta = dist - lastDist;
+      lastDist = dist;
+
+      const zoomSpeed = 0.5;
+      app.camera.position.addScaledVector(
+        app.camera.getWorldDirection(new THREE.Vector3()),
+        -delta * zoomSpeed
+      );
+    });
+
+    canvas.addEventListener("touchend", () => {
+      lastDist = 0;
+    });
+  }
+};
+
+// ------------------------------------------------------------
+// MOBILE FOOTER HELPER — run only on mobile
+// ------------------------------------------------------------
+this.applyMobileFooterLayout = function () {
+  const bar = document.getElementById("bottom-bar");
+  if (!bar) return;
+
+  // Create wrapper rows
+  const rowControls = document.createElement("div");
+  rowControls.id = "mobile-row-controls";
+
+  const rowLyrics = document.createElement("div");
+  rowLyrics.id = "mobile-row-lyrics";
+
+  const rowPage = document.createElement("div");
+  rowPage.id = "mobile-row-page";
+
+  // Grab existing elements
+  const controls = document.getElementById("player-controls");
+  const btnLyrics = document.getElementById("btn-lyrics");
+  const btnRelated = document.getElementById("btn-related");
+  const pageSwitch = document.getElementById("page-switch");
+
+  // Fill rows in correct order
+  if (controls) rowControls.appendChild(controls);
+  if (btnLyrics && btnRelated) {
+    rowLyrics.appendChild(btnLyrics);
+    rowLyrics.appendChild(btnRelated);
+  }
+  if (pageSwitch) rowPage.appendChild(pageSwitch);
+
+  // Clear bottom-bar and rebuild for mobile
+  bar.innerHTML = "";
+  bar.appendChild(rowControls);
+  bar.appendChild(rowLyrics);
+  bar.appendChild(rowPage);
+
+  // Add mobile class for CSS
+  bar.classList.add("mobile-footer");
+};
+
+// ------------------------------------------------------------
+// RUN ONLY ON MOBILE DEVICES
+// ------------------------------------------------------------
+const isMobile =
+  window.matchMedia("(max-width: 900px)").matches ||
+  "ontouchstart" in window ||
+  navigator.maxTouchPoints > 0;
+
+if (isMobile) {
+  this.applyMobileFooterLayout();
+}

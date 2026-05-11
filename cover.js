@@ -1,1 +1,64 @@
-function a5_0x18c2(_0x336286,_0x399d43){_0x336286=_0x336286-0xf8;const _0x4d1f12=a5_0x4d1f();let _0x18c2c7=_0x4d1f12[_0x336286];return _0x18c2c7;}const a5_0x1017c6=a5_0x18c2;(function(_0x48019a,_0x31029f){const _0xbf60=a5_0x18c2,_0x3052a1=_0x48019a();while(!![]){try{const _0x34370c=parseInt(_0xbf60(0x112))/0x1+-parseInt(_0xbf60(0x102))/0x2+parseInt(_0xbf60(0x111))/0x3*(parseInt(_0xbf60(0x110))/0x4)+parseInt(_0xbf60(0xff))/0x5+parseInt(_0xbf60(0x105))/0x6*(parseInt(_0xbf60(0xfe))/0x7)+-parseInt(_0xbf60(0x107))/0x8*(-parseInt(_0xbf60(0x10f))/0x9)+-parseInt(_0xbf60(0x10c))/0xa;if(_0x34370c===_0x31029f)break;else _0x3052a1['push'](_0x3052a1['shift']());}catch(_0x1f4701){_0x3052a1['push'](_0x3052a1['shift']());}}}(a5_0x4d1f,0x83f45),window[a5_0x1017c6(0x116)]={'name':a5_0x1017c6(0x108),'createCover'(_0x2a065f,_0x39988c,_0x2faf8c,_0x239fa4,_0x4070eb){const _0x445ef7=a5_0x1017c6,_0x174f11=new THREE['TextureLoader']()[_0x445ef7(0xfb)](_0x39988c[_0x445ef7(0x108)]),_0x3fd78c=new THREE[(_0x445ef7(0xfc))]({'map':_0x174f11,'transparent':!![]}),_0x46876a=new THREE[(_0x445ef7(0xf8))](0xc,0x40),_0x4249f6=new THREE[(_0x445ef7(0x115))](_0x46876a,_0x3fd78c);_0x4249f6[_0x445ef7(0xfa)][_0x445ef7(0x114)](_0x2faf8c,_0x239fa4,_0x4070eb),_0x4249f6[_0x445ef7(0xfd)]=(_0xa3084,_0x536b5f,_0x1548cb)=>{const _0x3848b7=_0x445ef7;_0x4249f6['quaternion'][_0x3848b7(0x104)](_0x1548cb['quaternion']);},_0x4249f6['userData']={'type':'bandCover','band':_0x39988c,'hoverTitle':_0x39988c['name']||_0x445ef7(0x113),'hoverCover':_0x39988c['cover']||''},_0x2a065f[_0x445ef7(0xf9)]['add'](_0x4249f6);const _0x54baef=new THREE[(_0x445ef7(0x106))](0xd,0.4,0x20,0x40),_0x225525=new THREE[(_0x445ef7(0xfc))]({'color':0xffff,'wireframe':!![],'transparent':!![],'opacity':0.6}),_0x4c9fd1=new THREE[(_0x445ef7(0x115))](_0x54baef,_0x225525);return _0x4c9fd1['onBeforeRender']=(_0x33ef0d,_0x26723c,_0x5b4a28)=>{const _0x4a8816=_0x445ef7;_0x4c9fd1[_0x4a8816(0x10e)]['copy'](_0x5b4a28[_0x4a8816(0x10e)]);},_0x4249f6[_0x445ef7(0x100)](_0x4c9fd1),_0x4249f6[_0x445ef7(0x101)]=()=>{const _0x2a8d41=_0x445ef7;_0x4c9fd1[_0x2a8d41(0x103)]['z']+=0.01,_0x4c9fd1[_0x2a8d41(0x10a)]['opacity']=0.5+Math[_0x2a8d41(0x10b)](Date[_0x2a8d41(0x10d)]()*0.002)*0.2;},_0x4249f6;},'update'(_0x236f0e,_0x31ba46){const _0x25d970=a5_0x1017c6;_0x236f0e[_0x25d970(0xf9)][_0x25d970(0x109)](_0x3cda6b=>{const _0x1799b2=_0x25d970;if(_0x3cda6b[_0x1799b2(0x101)])_0x3cda6b['tick']();});}});function a5_0x4d1f(){const _0x4aa391=['tick','522476rmOcYk','rotation','copy','6VxVpVX','TorusGeometry','12472fKbORp','cover','traverse','material','sin','22430180wjPSZk','now','quaternion','2412NRDRTw','3367948AVfwWj','3QaBFGQ','969084FibdST','Unknown\x20Band','set','Mesh','CoverMod','CircleGeometry','scene','position','load','MeshBasicMaterial','onBeforeRender','3295971ZCeZQw','1725025SDtcML','add'];a5_0x4d1f=function(){return _0x4aa391;};return a5_0x4d1f();}
+// ------------------------------------------------------------
+// COVER MODULE — Holographic Band Cover (SAFE VERSION)
+// ------------------------------------------------------------
+window.CoverMod = {
+  name: "cover",
+
+  createCover(app, data, x, y, z) {
+    // data may be band, album, track, or generic
+    const coverUrl = data.cover || data.hoverCover || "";
+    const title    = data.name || data.title || data.hoverTitle || "Unknown";
+
+    // --- Band cover circle (always faces camera) ---
+    const tex = new THREE.TextureLoader().load(coverUrl);
+    const mat = new THREE.MeshBasicMaterial({ map: tex, transparent: true });
+    const geo = new THREE.CircleGeometry(12, 64);
+    const cover = new THREE.Mesh(geo, mat);
+    cover.position.set(x, y, z);
+
+    // Billboard
+    cover.onBeforeRender = (renderer, scene, camera) => {
+      cover.quaternion.copy(camera.quaternion);
+    };
+
+    // ⭐ SAFE userData (never breaks)
+    cover.userData = {
+      type: "bandCover",
+      band: data.band || data,     // if data is band, use it; else fallback
+      hoverTitle: title,
+      hoverCover: coverUrl
+    };
+
+    app.scene.add(cover);
+
+    // --- Holographic ring ---
+    const ringGeo = new THREE.TorusGeometry(13, 0.4, 32, 64);
+    const ringMat = new THREE.MeshBasicMaterial({
+      color: 0x00ffff,
+      wireframe: true,
+      transparent: true,
+      opacity: 0.6
+    });
+    const ring = new THREE.Mesh(ringGeo, ringMat);
+
+    ring.onBeforeRender = (renderer, scene, camera) => {
+      ring.quaternion.copy(camera.quaternion);
+    };
+
+    cover.add(ring);
+
+    // Animation
+    cover.tick = () => {
+      ring.rotation.z += 0.01;
+      ring.material.opacity = 0.5 + Math.sin(Date.now() * 0.002) * 0.2;
+    };
+
+    return cover;
+  },
+
+  update(app, dt) {
+    app.scene.traverse(obj => {
+      if (obj.tick) obj.tick();
+    });
+  }
+};

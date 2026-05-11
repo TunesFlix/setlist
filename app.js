@@ -1,1 +1,218 @@
-function a0_0x4ec9(_0x4828eb,_0x3c5c53){_0x4828eb=_0x4828eb-0xdf;const _0x2dc15b=a0_0x2dc1();let _0x4ec994=_0x2dc15b[_0x4828eb];return _0x4ec994;}const a0_0x38867f=a0_0x4ec9;function a0_0x2dc1(){const _0x9924c2=['audio','set','forEach','onMouseMove','camera','1119ZwwyIM','object','isTrack','CoverMod','Vector2','point','18537qTQCYQ','init','addEventListener','distanceTo','5FKNkuY','update','data','keyup','modules','length','max','220810HocmmE','json','228iggUQZ','setSize','getElementById','keys','domElement','callback','OrbitControls','progressStart','progressClickMesh','64xqdPSo','Raycaster','rotateSpeed','galaxy','mouse','ClusterMod','resize','progressEnd','clientX','keydown','intersectObject','setPixelRatio','video','click','onResize','231cIJCNl','10026Wrxzhy','animate','intersectObjects','children','38519MnUnsx','toLowerCase','register','aspect','render','duration','PerspectiveCamera','LoadBandAlbumTrack','key','progressBaseLine','360LPquRv','scene','buildFromJSON','renderer','raycaster','Setlist/Setlist.json','setFromCamera','add','2304RLgzyp','2179289NspGaI','onClick','333LgbKfn','controls','currentTime','WebGLRenderer'];a0_0x2dc1=function(){return _0x9924c2;};return a0_0x2dc1();}(function(_0x5752c9,_0x40de2f){const _0x434646=a0_0x4ec9,_0x3753bf=_0x5752c9();while(!![]){try{const _0x29d28b=-parseInt(_0x434646(0xe4))/0x1*(-parseInt(_0x434646(0x126))/0x2)+-parseInt(_0x434646(0xea))/0x3*(parseInt(_0x434646(0xf7))/0x4)+parseInt(_0x434646(0xee))/0x5*(-parseInt(_0x434646(0x110))/0x6)+parseInt(_0x434646(0x127))/0x7+parseInt(_0x434646(0x100))/0x8*(parseInt(_0x434646(0x129))/0x9)+parseInt(_0x434646(0xf5))/0xa*(-parseInt(_0x434646(0x10f))/0xb)+-parseInt(_0x434646(0x11e))/0xc*(parseInt(_0x434646(0x114))/0xd);if(_0x29d28b===_0x40de2f)break;else _0x3753bf['push'](_0x3753bf['shift']());}catch(_0x3980a2){_0x3753bf['push'](_0x3753bf['shift']());}}}(a0_0x2dc1,0xa97e6));const App={'scene':null,'camera':null,'renderer':null,'controls':null,'audio':null,'video':null,'modules':[],'keys':{},'data':null,'raycaster':new THREE[(a0_0x38867f(0x101))](),'mouse':new THREE[(a0_0x38867f(0xe8))](),'register'(_0x469104){const _0x2d3936=a0_0x38867f;this[_0x2d3936(0xf2)]['push'](_0x469104);},async 'loadJSON'(_0x36557d){const _0x4c1fa4=a0_0x38867f;try{const _0x1a7e6d=await fetch(_0x36557d);if(!_0x1a7e6d['ok'])return null;return await _0x1a7e6d[_0x4c1fa4(0xf6)]();}catch(_0x25b05c){return null;}},async 'init'(){const _0x3eca6c=a0_0x38867f;this[_0x3eca6c(0xf0)]=await this['loadJSON'](_0x3eca6c(0x123)),this[_0x3eca6c(0x11f)]=new THREE['Scene'](),this[_0x3eca6c(0xe3)]=new THREE[(_0x3eca6c(0x11a))](0x4b,innerWidth/ innerHeight,0.1,0x1f40),this[_0x3eca6c(0xe3)]['position'][_0x3eca6c(0xe0)](0x0,0x0,0x1c2),this['renderer']=new THREE[(_0x3eca6c(0x12c))]({'antialias':!![],'canvas':document[_0x3eca6c(0xf9)](_0x3eca6c(0x103))}),this[_0x3eca6c(0x121)][_0x3eca6c(0xf8)](innerWidth,innerHeight),this[_0x3eca6c(0x121)][_0x3eca6c(0x10b)](devicePixelRatio);const _0x6605df=new THREE['AmbientLight'](0xffffff,1.3);this[_0x3eca6c(0x11f)][_0x3eca6c(0x125)](_0x6605df),this[_0x3eca6c(0x12a)]=new THREE[(_0x3eca6c(0xfd))](this[_0x3eca6c(0xe3)],this[_0x3eca6c(0x121)][_0x3eca6c(0xfb)]),this[_0x3eca6c(0x12a)]['enablePan']=![],this[_0x3eca6c(0x12a)][_0x3eca6c(0x102)]=0.8,this[_0x3eca6c(0xdf)]=document[_0x3eca6c(0xf9)](_0x3eca6c(0xdf)),this['video']=document[_0x3eca6c(0xf9)](_0x3eca6c(0x10c)),window['addEventListener'](_0x3eca6c(0x106),()=>this[_0x3eca6c(0x10e)]()),window[_0x3eca6c(0xec)]('mousemove',_0x287e3b=>this[_0x3eca6c(0xe2)](_0x287e3b)),window[_0x3eca6c(0xec)](_0x3eca6c(0x10d),_0x239147=>this[_0x3eca6c(0x128)](_0x239147)),window[_0x3eca6c(0xec)](_0x3eca6c(0x109),_0x2fe14a=>this[_0x3eca6c(0xfa)][_0x2fe14a['key'][_0x3eca6c(0x115)]()]=!![]),window[_0x3eca6c(0xec)](_0x3eca6c(0xf1),_0x27683b=>this[_0x3eca6c(0xfa)][_0x27683b[_0x3eca6c(0x11c)][_0x3eca6c(0x115)]()]=![]),this['modules'][_0x3eca6c(0xe1)](_0x517e14=>_0x517e14[_0x3eca6c(0xeb)]&&_0x517e14['init'](this)),ClusterMod['LoadBandAlbumTrack']&&ClusterMod[_0x3eca6c(0x11b)](this,this[_0x3eca6c(0xf0)]),ClusterMod[_0x3eca6c(0x120)]&&ClusterMod[_0x3eca6c(0x120)](this,this[_0x3eca6c(0xf0)]),ClusterPageMod[_0x3eca6c(0xeb)]&&ClusterPageMod[_0x3eca6c(0xeb)](this),this[_0x3eca6c(0x111)]();},'onResize'(){const _0x3b845f=a0_0x38867f;this[_0x3b845f(0xe3)][_0x3b845f(0x117)]=innerWidth/ innerHeight,this['camera']['updateProjectionMatrix'](),this[_0x3b845f(0x121)]['setSize'](innerWidth,innerHeight);},'onMouseMove'(_0x4436fc){const _0x46997a=a0_0x38867f;this[_0x46997a(0x104)]['x']=_0x4436fc[_0x46997a(0x108)]/ innerWidth*0x2-0x1,this[_0x46997a(0x104)]['y']=-(_0x4436fc['clientY']/ innerHeight)*0x2+0x1,this['modules'][_0x46997a(0xe1)](_0x236385=>_0x236385[_0x46997a(0xe2)]&&_0x236385[_0x46997a(0xe2)](this,_0x4436fc));},'onClick'(_0x4634d6){const _0x5abd2f=a0_0x38867f;if(AudioMod[_0x5abd2f(0x11d)]){this[_0x5abd2f(0x122)][_0x5abd2f(0x124)](this[_0x5abd2f(0x104)],this['camera']);if(AudioMod[_0x5abd2f(0xff)]){const _0x1c9344=this[_0x5abd2f(0x122)]['intersectObject'](AudioMod[_0x5abd2f(0xff)],!![]);if(_0x1c9344[_0x5abd2f(0xf3)]>0x0){const _0x2e26fd=_0x1c9344[0x0][_0x5abd2f(0xe9)],_0x31eec5=AudioMod[_0x5abd2f(0xfe)]['distanceTo'](AudioMod[_0x5abd2f(0x107)]),_0xffe560=AudioMod[_0x5abd2f(0xfe)][_0x5abd2f(0xed)](_0x2e26fd),_0x543d7c=Math['min'](Math[_0x5abd2f(0xf4)](_0xffe560/_0x31eec5,0x0),0x1);if(this['audio'][_0x5abd2f(0x119)])this[_0x5abd2f(0xdf)][_0x5abd2f(0x12b)]=this[_0x5abd2f(0xdf)][_0x5abd2f(0x119)]*_0x543d7c;return;}}const _0x545ae0=this[_0x5abd2f(0x122)][_0x5abd2f(0x10a)](AudioMod[_0x5abd2f(0x11d)],!![]);if(_0x545ae0[_0x5abd2f(0xf3)]>0x0){const _0x460404=_0x545ae0[0x0]['point'],_0x2859c0=AudioMod[_0x5abd2f(0xfe)][_0x5abd2f(0xed)](AudioMod['progressEnd']),_0x233592=AudioMod[_0x5abd2f(0xfe)][_0x5abd2f(0xed)](_0x460404),_0x343adf=Math['min'](Math[_0x5abd2f(0xf4)](_0x233592/_0x2859c0,0x0),0x1);if(this[_0x5abd2f(0xdf)][_0x5abd2f(0x119)])this[_0x5abd2f(0xdf)][_0x5abd2f(0x12b)]=this[_0x5abd2f(0xdf)]['duration']*_0x343adf;return;}}this[_0x5abd2f(0x122)]['setFromCamera'](this[_0x5abd2f(0x104)],this[_0x5abd2f(0xe3)]);const _0x528f2b=this['raycaster'][_0x5abd2f(0x112)](this[_0x5abd2f(0x11f)][_0x5abd2f(0x113)],!![]);if(_0x528f2b[_0x5abd2f(0xf3)]>0x0){const _0x18e1be=_0x528f2b[0x0][_0x5abd2f(0xe5)];if(_0x18e1be[_0x5abd2f(0xe6)]){_0x18e1be['callback']&&_0x18e1be[_0x5abd2f(0xfc)]();return;}if(_0x18e1be['callback']){_0x18e1be[_0x5abd2f(0xfc)]();return;}}this[_0x5abd2f(0xf2)][_0x5abd2f(0xe1)](_0x135a25=>_0x135a25[_0x5abd2f(0x128)]&&_0x135a25[_0x5abd2f(0x128)](this,_0x4634d6));},'animate'(){const _0x3ec1ca=a0_0x38867f;requestAnimationFrame(()=>this[_0x3ec1ca(0x111)]()),this[_0x3ec1ca(0x12a)][_0x3ec1ca(0xef)](),this[_0x3ec1ca(0xf2)][_0x3ec1ca(0xe1)](_0x293688=>_0x293688[_0x3ec1ca(0xef)]&&_0x293688['update'](this,0.016)),window[_0x3ec1ca(0x105)]&&ClusterMod['update']&&ClusterMod[_0x3ec1ca(0xef)](this,0.016),window[_0x3ec1ca(0xe7)]&&CoverMod['update']&&CoverMod[_0x3ec1ca(0xef)](this,0.016),this[_0x3ec1ca(0x121)][_0x3ec1ca(0x118)](this[_0x3ec1ca(0x11f)],this[_0x3ec1ca(0xe3)]);}};App[a0_0x38867f(0x116)](Clouds),App[a0_0x38867f(0x116)](CoverMod),App['register'](ClusterMod),App['register'](AudioMod),App[a0_0x38867f(0x116)](UIMod),App['register'](ProgressMod),App[a0_0x38867f(0x116)](RaycastMod),App['register'](MovementMod),App[a0_0x38867f(0x116)](ClusterPageMod),App['register'](FloatTunesMobile),App[a0_0x38867f(0x116)](VideoMod),App['init']();
+// ------------------------------------------------------------
+// APP CORE ENGINE (FloatTunes Galaxy)
+// ------------------------------------------------------------
+const App = {
+  scene: null,
+  camera: null,
+  renderer: null,
+  controls: null,
+
+  audio: null,
+  video: null,
+
+  modules: [],
+  keys: {},
+  data: null,
+
+  raycaster: new THREE.Raycaster(),
+  mouse: new THREE.Vector2(),
+
+  register(module) {
+    this.modules.push(module);
+  },
+
+  // ------------------------------------------------------------
+  // LOAD JSON FIRST
+  // ------------------------------------------------------------
+  async loadJSON(path) {
+    try {
+      const res = await fetch(path);
+      if (!res.ok) return null;
+      return await res.json();
+    } catch (err) {
+      return null;
+    }
+  },
+
+  // ------------------------------------------------------------
+  // INIT
+  // ------------------------------------------------------------
+  async init() {
+    this.data = await this.loadJSON("Setlist/Setlist.json");
+
+    // Scene
+    this.scene = new THREE.Scene();
+
+    // Camera
+    this.camera = new THREE.PerspectiveCamera(75, innerWidth / innerHeight, 0.1, 8000);
+    this.camera.position.set(0, 0, 450);
+
+    // Renderer
+    this.renderer = new THREE.WebGLRenderer({
+      antialias: true,
+      canvas: document.getElementById("galaxy")
+    });
+    this.renderer.setSize(innerWidth, innerHeight);
+    this.renderer.setPixelRatio(devicePixelRatio);
+
+    // Light
+    this.scene.add(new THREE.AmbientLight(0xffffff, 1.3));
+
+    // ------------------------------------------------------------
+    // CUSTOM ORBIT CONTROLS (FloatTunes)
+    // ------------------------------------------------------------
+    this.controls = new THREE.OrbitControls(this.camera, this.renderer.domElement);
+    this.controls.rotateSpeed = 0.8;
+    this.controls.minDistance = 50;
+    this.controls.maxDistance = 4000;
+
+    // Audio + Video
+    this.audio = document.getElementById("audio");
+    this.video = document.getElementById("video");
+
+    // Events
+    window.addEventListener("resize", () => this.onResize());
+    window.addEventListener("mousemove", e => this.onMouseMove(e));
+    window.addEventListener("click", e => this.onClick(e));
+    window.addEventListener("keydown", e => this.keys[e.key.toLowerCase()] = true);
+    window.addEventListener("keyup", e => this.keys[e.key.toLowerCase()] = false);
+
+    // Init modules
+    this.modules.forEach(m => m.init && m.init(this));
+
+    // ------------------------------------------------------------
+    // FULL GALAXY BUILD
+    // ------------------------------------------------------------
+   
+
+    if (ClusterMod.buildFromJSON) {
+      ClusterMod.buildFromJSON(this, this.data);
+    }
+
+    if (ClusterPageMod.init) {
+      ClusterPageMod.init(this);
+    }
+
+    // Start loop
+this.scene.updateMatrixWorld(true);   // ⭐ FIX: sync billboard meshes
+this.animate();
+
+  },
+
+  // ------------------------------------------------------------
+  // RESIZE
+  // ------------------------------------------------------------
+  onResize() {
+    this.camera.aspect = innerWidth / innerHeight;
+    this.camera.updateProjectionMatrix();
+    this.renderer.setSize(innerWidth, innerHeight);
+  },
+
+  // ------------------------------------------------------------
+  // MOUSE MOVE
+  // ------------------------------------------------------------
+onMouseMove(e) {
+  this.mouse.x = (e.clientX / innerWidth) * 2 - 1;
+  this.mouse.y = -(e.clientY / innerHeight) * 2 + 1;
+},
+
+
+  // ------------------------------------------------------------
+  // CLICK HANDLER (raycast)
+  // ------------------------------------------------------------
+  onClick(e) {
+
+    // CLICK‑TO‑SEEK
+    if (AudioMod.progressBaseLine) {
+      this.raycaster.setFromCamera(this.mouse, this.camera);
+
+      if (AudioMod.progressClickMesh) {
+        const hit = this.raycaster.intersectObject(AudioMod.progressClickMesh, true);
+        if (hit.length > 0) {
+          const point = hit[0].point;
+          const total = AudioMod.progressStart.distanceTo(AudioMod.progressEnd);
+          const dist  = AudioMod.progressStart.distanceTo(point);
+          const ratio = Math.min(Math.max(dist / total, 0), 1);
+          if (this.audio.duration) this.audio.currentTime = this.audio.duration * ratio;
+          return;
+        }
+      }
+
+      const hit2 = this.raycaster.intersectObject(AudioMod.progressBaseLine, true);
+      if (hit2.length > 0) {
+        const point = hit2[0].point;
+        const total = AudioMod.progressStart.distanceTo(AudioMod.progressEnd);
+        const dist  = AudioMod.progressStart.distanceTo(point);
+        const ratio = Math.min(Math.max(dist / total, 0), 1);
+        if (this.audio.duration) this.audio.currentTime = this.audio.duration * ratio;
+        return;
+      }
+    }
+
+    // NORMAL NODE CLICK
+    this.raycaster.setFromCamera(this.mouse, this.camera);
+    const hits = this.raycaster.intersectObjects(this.scene.children, true);
+
+    if (hits.length > 0) {
+      const obj = hits[0].object;
+
+      if (obj.isTrack) {
+        obj.callback && obj.callback();
+        return;
+      }
+
+      if (obj.callback) {
+        obj.callback();
+        return;
+      }
+    }
+
+    this.modules.forEach(m => m.onClick && m.onClick(this, e));
+  },
+
+animate() {
+  requestAnimationFrame(() => this.animate());
+
+  // 1) Update camera
+  this.controls.update();
+
+  // 2) Update world matrices (billboards, covers, lines)
+  this.scene.updateMatrixWorld(true);
+
+  // 3) REAL-TIME RAYCAST (this is the missing piece)
+  this.raycaster.setFromCamera(this.mouse, this.camera);
+  this.modules.forEach(m => m.onMouseMove && m.onMouseMove(this));
+
+  // 4) Update modules
+  this.modules.forEach(m => m.update && m.update(this, 0.016));
+
+  if (ClusterMod.update) ClusterMod.update(this, 0.016);
+  if (CoverMod.update) CoverMod.update(this, 0.016);
+  if (AudioMod.updateProgress) AudioMod.updateProgress(this);
+
+  // 5) Render
+  this.renderer.render(this.scene, this.camera);
+},
+
+};   
+
+
+// ------------------------------------------------------------
+// REGISTER MODULES
+// ------------------------------------------------------------
+App.register(Clouds);
+App.register(CoverMod);
+App.register(ClusterMod);
+App.register(AudioMod);
+App.register(UIMod);
+App.register(ProgressMod);
+App.register(RaycastMod);
+App.register(MovementMod);
+App.register(ClusterPageMod);
+App.register(FloatTunesMobile);
+App.register(VideoMod);
+
+// ------------------------------------------------------------
+// START
+// ------------------------------------------------------------
+App.init();

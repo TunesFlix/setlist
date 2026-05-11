@@ -1,1 +1,106 @@
-(function(_0x572f13,_0x1a8b63){const _0x2e0813=a9_0x2012,_0x5e29e1=_0x572f13();while(!![]){try{const _0x45d6ab=-parseInt(_0x2e0813(0x13a))/0x1*(parseInt(_0x2e0813(0x130))/0x2)+-parseInt(_0x2e0813(0x136))/0x3+-parseInt(_0x2e0813(0x15a))/0x4+parseInt(_0x2e0813(0x133))/0x5+parseInt(_0x2e0813(0x15f))/0x6*(-parseInt(_0x2e0813(0x13d))/0x7)+parseInt(_0x2e0813(0x13f))/0x8*(parseInt(_0x2e0813(0x15b))/0x9)+parseInt(_0x2e0813(0x145))/0xa;if(_0x45d6ab===_0x1a8b63)break;else _0x5e29e1['push'](_0x5e29e1['shift']());}catch(_0x5f4ad7){_0x5e29e1['push'](_0x5e29e1['shift']());}}}(a9_0x450e,0x38c61),window['ProgressMod']={'name':'progress','bar':null,'fill':null,'timeCurrent':null,'timeTotal':null,'init'(_0x467fbf){const _0x6dd0e0=a9_0x2012;this[_0x6dd0e0(0x14b)]=document['getElementById']('progress-bar'),this[_0x6dd0e0(0x143)]=document[_0x6dd0e0(0x131)](_0x6dd0e0(0x157)),this['timeCurrent']=document[_0x6dd0e0(0x131)](_0x6dd0e0(0x153)),this[_0x6dd0e0(0x12e)]=document[_0x6dd0e0(0x131)](_0x6dd0e0(0x13b));if(!this['bar']||!this[_0x6dd0e0(0x143)])return;this['bar'][_0x6dd0e0(0x14e)](_0x6dd0e0(0x134),_0x399fdf=>{const _0x4c9ba8=_0x6dd0e0,_0xf2e19e=_0x467fbf['video']['style'][_0x4c9ba8(0x12d)]===_0x4c9ba8(0x154)?_0x467fbf[_0x4c9ba8(0x15c)]:_0x467fbf['audio'];if(!_0xf2e19e[_0x4c9ba8(0x139)])return;const _0x865cca=this['bar'][_0x4c9ba8(0x149)](),_0x1caa35=_0x399fdf['clientX']-_0x865cca[_0x4c9ba8(0x137)],_0x5cec09=_0x1caa35/_0x865cca[_0x4c9ba8(0x14a)];_0xf2e19e[_0x4c9ba8(0x13e)]=_0x5cec09*_0xf2e19e[_0x4c9ba8(0x139)];});},'update'(_0x11c416,_0x9f92a8){const _0x5b3bbb=a9_0x2012,_0x272de3=_0x11c416['video'][_0x5b3bbb(0x140)][_0x5b3bbb(0x12d)]===_0x5b3bbb(0x154)?_0x11c416[_0x5b3bbb(0x15c)]:_0x11c416[_0x5b3bbb(0x159)];if(!this[_0x5b3bbb(0x143)])return;if(!_0x272de3[_0x5b3bbb(0x139)]||isNaN(_0x272de3[_0x5b3bbb(0x139)])){this['fill'][_0x5b3bbb(0x140)][_0x5b3bbb(0x14a)]='0%';if(this[_0x5b3bbb(0x155)])this[_0x5b3bbb(0x155)]['textContent']=_0x5b3bbb(0x151);if(this[_0x5b3bbb(0x12e)])this[_0x5b3bbb(0x12e)][_0x5b3bbb(0x138)]=_0x5b3bbb(0x151);return;}const _0x1f60d9=_0x272de3[_0x5b3bbb(0x13e)]/_0x272de3[_0x5b3bbb(0x139)];this['fill'][_0x5b3bbb(0x140)][_0x5b3bbb(0x14a)]=_0x1f60d9*0x64+'%';if(this[_0x5b3bbb(0x155)])this[_0x5b3bbb(0x155)][_0x5b3bbb(0x138)]=this[_0x5b3bbb(0x15d)](_0x272de3[_0x5b3bbb(0x13e)]);if(this['timeTotal'])this[_0x5b3bbb(0x12e)][_0x5b3bbb(0x138)]=this['formatTime'](_0x272de3[_0x5b3bbb(0x139)]);if(AudioMod[_0x5b3bbb(0x152)]&&AudioMod[_0x5b3bbb(0x150)]&&AudioMod['progressEnd']){const _0xa6b464=Math[_0x5b3bbb(0x135)](0x0,Math[_0x5b3bbb(0x148)](0x1,_0x1f60d9)),_0x18ebce=AudioMod[_0x5b3bbb(0x150)][_0x5b3bbb(0x158)]()[_0x5b3bbb(0x142)](AudioMod['progressEnd'],_0xa6b464),_0x1e3c11=AudioMod[_0x5b3bbb(0x152)]['geometry'],_0x1e88bc=_0x1e3c11[_0x5b3bbb(0x156)](_0x5b3bbb(0x160));_0x1e88bc[_0x5b3bbb(0x13c)](0x0,AudioMod['progressStart']['x'],AudioMod['progressStart']['y'],AudioMod[_0x5b3bbb(0x150)]['z']),_0x1e88bc[_0x5b3bbb(0x13c)](0x1,_0x18ebce['x'],_0x18ebce['y'],_0x18ebce['z']),_0x1e88bc['needsUpdate']=!![];const _0x576962=AudioMod[_0x5b3bbb(0x150)]['clone']()[_0x5b3bbb(0x15e)](_0x11c416[_0x5b3bbb(0x146)]),_0x3a15e0=AudioMod[_0x5b3bbb(0x144)][_0x5b3bbb(0x158)]()[_0x5b3bbb(0x15e)](_0x11c416[_0x5b3bbb(0x146)]),_0x365ff4=(_0x576962['x']*0.5+0.5)*window[_0x5b3bbb(0x147)],_0xc64b56=(-_0x576962['y']*0.5+0.5)*window[_0x5b3bbb(0x141)]+0x14,_0x2fddc9=(_0x3a15e0['x']*0.5+0.5)*window[_0x5b3bbb(0x147)],_0x20da57=(-_0x3a15e0['y']*0.5+0.5)*window[_0x5b3bbb(0x141)]+0x14;AudioMod[_0x5b3bbb(0x14d)]&&(AudioMod['timeLabelCurrent']['textContent']=this[_0x5b3bbb(0x15d)](_0x272de3[_0x5b3bbb(0x13e)]),AudioMod[_0x5b3bbb(0x14d)][_0x5b3bbb(0x140)]['left']=_0x365ff4+'px',AudioMod[_0x5b3bbb(0x14d)][_0x5b3bbb(0x140)][_0x5b3bbb(0x14c)]=_0xc64b56+'px'),AudioMod['timeLabelTotal']&&(AudioMod[_0x5b3bbb(0x132)][_0x5b3bbb(0x138)]=this['formatTime'](_0x272de3[_0x5b3bbb(0x139)]),AudioMod[_0x5b3bbb(0x132)][_0x5b3bbb(0x140)][_0x5b3bbb(0x137)]=_0x2fddc9+'px',AudioMod['timeLabelTotal'][_0x5b3bbb(0x140)][_0x5b3bbb(0x14c)]=_0x20da57+'px');}},'formatTime'(_0x19c0f9){const _0x34ef7c=a9_0x2012;if(!isFinite(_0x19c0f9))return _0x34ef7c(0x151);const _0x1769a0=Math['floor'](_0x19c0f9/0x3c),_0x1dce58=Math[_0x34ef7c(0x12f)](_0x19c0f9%0x3c);return _0x1769a0+':'+_0x1dce58[_0x34ef7c(0x14f)]()['padStart'](0x2,'0');}});function a9_0x2012(_0x33761d,_0x328847){_0x33761d=_0x33761d-0x12d;const _0x450eb6=a9_0x450e();let _0x2012f4=_0x450eb6[_0x33761d];return _0x2012f4;}function a9_0x450e(){const _0xdec4fd=['min','getBoundingClientRect','width','bar','top','timeLabelCurrent','addEventListener','toString','progressStart','0:00','progressLine','time-current','block','timeCurrent','getAttribute','progress-fill','clone','audio','766200iPzlnP','18yVdhwB','video','formatTime','project','89016MxdXLA','position','display','timeTotal','floor','226xKExBx','getElementById','timeLabelTotal','235945xZPhKh','click','max','726435UwbJeE','left','textContent','duration','1090ENTWSa','time-total','setXYZ','168eowYHR','currentTime','276936drYrlP','style','innerHeight','lerp','fill','progressEnd','10290510gyDqQi','camera','innerWidth'];a9_0x450e=function(){return _0xdec4fd;};return a9_0x450e();}
+// ------------------------------------------------------------
+// PROGRESS MODULE — FloatTunes Galaxy (Bottom Bar + 3D Sync)
+// ------------------------------------------------------------
+window.ProgressMod = {
+  name: "progress",
+
+  bar: null,
+  fill: null,
+  timeCurrent: null,
+  timeTotal: null,
+
+  init(app) {
+    this.bar  = document.getElementById("progress-bar");
+    this.fill = document.getElementById("progress-fill");
+    this.timeCurrent = document.getElementById("time-current");
+    this.timeTotal   = document.getElementById("time-total");
+
+    if (!this.bar || !this.fill) return;
+
+    // ------------------------------------------------------------
+    // SEEK ON CLICK
+    // ------------------------------------------------------------
+    this.bar.addEventListener("click", e => {
+      const audio = app.video.style.display === "block" ? app.video : app.audio;
+      if (!audio.duration) return;
+
+      const rect = this.bar.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const ratio = x / rect.width;
+      audio.currentTime = ratio * audio.duration;
+    });
+  },
+
+  // ------------------------------------------------------------
+  // UPDATE BOTTOM BAR + 3D PROGRESS FILL + FLOATING LABELS
+  // ------------------------------------------------------------
+  update(app, dt) {
+    const audio = app.video.style.display === "block" ? app.video : app.audio;
+    if (!this.fill) return;
+
+    // bottom bar fill
+    if (!audio.duration || isNaN(audio.duration)) {
+      this.fill.style.width = "0%";
+      if (this.timeCurrent) this.timeCurrent.textContent = "0:00";
+      if (this.timeTotal)   this.timeTotal.textContent   = "0:00";
+      return;
+    }
+
+    const ratio = audio.currentTime / audio.duration;
+    this.fill.style.width = (ratio * 100) + "%";
+
+    // update bottom time labels
+    if (this.timeCurrent) this.timeCurrent.textContent = this.formatTime(audio.currentTime);
+    if (this.timeTotal)   this.timeTotal.textContent   = this.formatTime(audio.duration);
+
+    // ------------------------------------------------------------
+    // 3D PROGRESS FILL LINE + FLOATING TIME LABELS
+    // ------------------------------------------------------------
+    if (AudioMod.progressLine && AudioMod.progressStart && AudioMod.progressEnd) {
+
+      // 1) Compute current 3D point
+      const clamped = Math.max(0, Math.min(1, ratio));
+      AudioMod.progressCurrent = AudioMod.progressStart.clone().lerp(AudioMod.progressEnd, clamped);
+
+      // 2) Update 3D line geometry
+      const geo = AudioMod.progressLine.geometry;
+      const posAttr = geo.getAttribute("position");
+      posAttr.setXYZ(0, AudioMod.progressStart.x, AudioMod.progressStart.y, AudioMod.progressStart.z);
+      posAttr.setXYZ(1, AudioMod.progressCurrent.x, AudioMod.progressCurrent.y, AudioMod.progressCurrent.z);
+      posAttr.needsUpdate = true;
+
+      // 3) Project CURRENT point (not start!)
+      const p = AudioMod.progressCurrent.clone().project(app.camera);
+      const sx = (p.x * 0.5 + 0.5) * window.innerWidth;
+      const sy = (-p.y * 0.5 + 0.5) * window.innerHeight + 20;
+
+      // 4) Update floating CURRENT TIME label
+      if (AudioMod.timeLabelCurrent) {
+        AudioMod.timeLabelCurrent.textContent = this.formatTime(audio.currentTime);
+        AudioMod.timeLabelCurrent.style.left = `${sx}px`;
+        AudioMod.timeLabelCurrent.style.top  = `${sy}px`;
+      }
+
+      // 5) Project END point for TOTAL TIME label
+      const pEnd = AudioMod.progressEnd.clone().project(app.camera);
+      const sxEnd = (pEnd.x * 0.5 + 0.5) * window.innerWidth;
+      const syEnd = (-pEnd.y * 0.5 + 0.5) * window.innerHeight + 20;
+
+      if (AudioMod.timeLabelTotal) {
+        AudioMod.timeLabelTotal.textContent = this.formatTime(audio.duration);
+        AudioMod.timeLabelTotal.style.left = `${sxEnd}px`;
+        AudioMod.timeLabelTotal.style.top  = `${syEnd}px`;
+      }
+    }
+  },
+
+  // ------------------------------------------------------------
+  // FORMAT TIME
+  // ------------------------------------------------------------
+  formatTime(sec) {
+    if (!isFinite(sec)) return "0:00";
+    const m = Math.floor(sec / 60);
+    const s = Math.floor(sec % 60);
+    return `${m}:${s.toString().padStart(2, "0")}`;
+  }
+};

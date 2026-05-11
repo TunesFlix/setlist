@@ -1,1 +1,74 @@
-function a10_0x42a1(_0x33e3ca,_0x2f47b4){_0x33e3ca=_0x33e3ca-0xb6;const _0xf1f2bb=a10_0xf1f2();let _0x42a1cb=_0xf1f2bb[_0x33e3ca];return _0x42a1cb;}function a10_0xf1f2(){const _0x425ca8=['hovered','3XUWokX','title','mouse','5bfrXYQ','102412rtYVCs','length','setHex','2260114RHLPbe','type','raycaster','intersectObjects','1835495utMdpe','2455890oAICrv','hoverTitle','camera','31744EqlRVB','band','material','hideHover','name','emissive','18dGjFJi','children','290822yISEcN','setFromCamera','album','track','12315070JlrOUC','object','callback'];a10_0xf1f2=function(){return _0x425ca8;};return a10_0xf1f2();}(function(_0x5263ef,_0x3555c6){const _0x9d80c1=a10_0x42a1,_0x1c22b2=_0x5263ef();while(!![]){try{const _0x34fd9b=-parseInt(_0x9d80c1(0xcb))/0x1+-parseInt(_0x9d80c1(0xc7))/0x2*(-parseInt(_0x9d80c1(0xc0))/0x3)+-parseInt(_0x9d80c1(0xc4))/0x4*(parseInt(_0x9d80c1(0xc3))/0x5)+parseInt(_0x9d80c1(0xcc))/0x6+parseInt(_0x9d80c1(0xb8))/0x7+parseInt(_0x9d80c1(0xcf))/0x8*(-parseInt(_0x9d80c1(0xb6))/0x9)+parseInt(_0x9d80c1(0xbc))/0xa;if(_0x34fd9b===_0x3555c6)break;else _0x1c22b2['push'](_0x1c22b2['shift']());}catch(_0x2c577d){_0x1c22b2['push'](_0x1c22b2['shift']());}}}(a10_0xf1f2,0xe651f),window['RaycastMod']={'name':'raycast','hovered':null,'onClick'(_0x26177e,_0x504850){const _0x4125cf=a10_0x42a1;_0x26177e[_0x4125cf(0xc9)][_0x4125cf(0xb9)](_0x26177e[_0x4125cf(0xc2)],_0x26177e[_0x4125cf(0xce)]);const _0x52d88b=_0x26177e[_0x4125cf(0xc9)][_0x4125cf(0xca)](_0x26177e['scene'][_0x4125cf(0xb7)],!![]);if(_0x52d88b['length']>0x0){const _0x5000b3=_0x52d88b[0x0][_0x4125cf(0xbd)];if(_0x5000b3[_0x4125cf(0xbe)]){_0x5000b3['callback']();return;}}},'onMouseMove'(_0xc00fbc,_0x3b4917){const _0x2db042=a10_0x42a1;_0xc00fbc[_0x2db042(0xc9)][_0x2db042(0xb9)](_0xc00fbc[_0x2db042(0xc2)],_0xc00fbc[_0x2db042(0xce)]);const _0x582e9b=_0xc00fbc[_0x2db042(0xc9)]['intersectObjects'](_0xc00fbc['scene'][_0x2db042(0xb7)],!![]);if(_0x582e9b[_0x2db042(0xc5)]>0x0){const _0x254992=_0x582e9b[0x0][_0x2db042(0xbd)];if(this[_0x2db042(0xbf)]!==_0x254992){this[_0x2db042(0xbf)]&&(AudioMod['hideHover'](),this[_0x2db042(0xbf)][_0x2db042(0xd1)]['emissive']&&this[_0x2db042(0xbf)][_0x2db042(0xd1)][_0x2db042(0xd4)][_0x2db042(0xc6)](0x0));this[_0x2db042(0xbf)]=_0x254992;const _0x162e2d=_0x254992['userData']||{};let _0x42b6d3='';if(_0x162e2d[_0x2db042(0xcd)])_0x42b6d3=_0x162e2d[_0x2db042(0xcd)];else{if(_0x162e2d[_0x2db042(0xc8)]==='track'&&_0x162e2d[_0x2db042(0xbb)])_0x42b6d3=_0x162e2d[_0x2db042(0xbb)]['title'];else{if(_0x162e2d['type']==='album'&&_0x162e2d[_0x2db042(0xba)])_0x42b6d3=_0x162e2d['album'][_0x2db042(0xc1)];else{if(_0x162e2d[_0x2db042(0xc8)]===_0x2db042(0xd0)&&_0x162e2d['band'])_0x42b6d3=_0x162e2d[_0x2db042(0xd0)][_0x2db042(0xd3)];}}}if(_0x42b6d3)AudioMod['showHover'](_0x42b6d3);_0x254992['material']&&_0x254992['material']['emissive']&&_0x254992['material'][_0x2db042(0xd4)][_0x2db042(0xc6)](0x44ff44);}}else this[_0x2db042(0xbf)]&&(AudioMod[_0x2db042(0xd2)](),this['hovered'][_0x2db042(0xd1)]&&this[_0x2db042(0xbf)][_0x2db042(0xd1)][_0x2db042(0xd4)]&&this[_0x2db042(0xbf)][_0x2db042(0xd1)][_0x2db042(0xd4)][_0x2db042(0xc6)](0x0),this['hovered']=null);}});
+// ------------------------------------------------------------
+// RAYCAST MODULE — Exact Band/Album/Track Hover (Visible Only)
+// ------------------------------------------------------------
+window.RaycastMod = {
+  name: "raycast",
+
+  hovered: null,
+
+  // Find nearest ancestor that has a typed userData (band/album/track)
+  resolveTarget(obj) {
+    let cur = obj;
+    while (cur) {
+      const ud = cur.userData;
+      if (ud && ud.type) return cur;   // band / album / track
+      cur = cur.parent;
+    }
+    return null;
+  },
+
+  // ------------------------------------------------------------
+  // CLICK
+  // ------------------------------------------------------------
+  onClick(app, e) {
+    app.scene.updateMatrixWorld();
+
+    // Only raycast visible objects
+    const visibleNodes = ClusterMod.nodes.filter(n => n.visible === true);
+
+    const hits = app.raycaster.intersectObjects(visibleNodes, true);
+    if (!hits.length) return;
+
+    const obj = this.resolveTarget(hits[0].object);
+    if (obj && obj.callback) obj.callback();
+  },
+
+  // ------------------------------------------------------------
+  // HOVER
+  // ------------------------------------------------------------
+  onMouseMove(app, e) {
+    app.scene.updateMatrixWorld();
+
+    // Only raycast visible objects
+    const visibleNodes = ClusterMod.nodes.filter(n => n.visible === true);
+
+    const hits = app.raycaster.intersectObjects(visibleNodes, true);
+    const obj = hits.length ? this.resolveTarget(hits[0].object) : null;
+
+    if (obj !== this.hovered) {
+      // clear previous
+      if (this.hovered) {
+        AudioMod.hideHover();
+        if (this.hovered.material?.emissive)
+          this.hovered.material.emissive.setHex(0x000000);
+      }
+
+      this.hovered = obj;
+
+      if (obj) {
+        const ud = obj.userData || {};
+        const text =
+          ud.hoverTitle ||
+          ud.band?.name ||
+          ud.album?.title ||
+          ud.track?.title ||
+          "";
+
+        if (text) AudioMod.showHover(text);
+
+        if (obj.material?.emissive)
+          obj.material.emissive.setHex(0x44ff44);
+      }
+    }
+  }
+};

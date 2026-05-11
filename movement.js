@@ -1,1 +1,194 @@
-function a7_0x569e(_0x5dd041,_0x85c8a2){_0x5dd041=_0x5dd041-0x128;const _0x978482=a7_0x9784();let _0x569ec2=_0x978482[_0x5dd041];return _0x569ec2;}function a7_0x9784(){const _0x415582=['camera','3504087PJaMBx','sub','clientY','control','mouse','310zILvfb','position','speedSlow','dragging','add','speedBase','7422SgiDZx','20vGHHoG','addEventListener','movement','mouseup','band','lastY','contextmenu','keys','children','8563buRBVf','preventDefault','3009592puLvAR','lengthSq','renderer','userData','clientX','Vector3','1395QyQIYK','raycaster','addScaledVector','update','3091264ipdJiv','4865715HGgdfA','domElement','button','dragTarget','setFromCamera','intersectObjects','lastX','type','forEach','controls','7812364DHNsMU','scene','normalize','verticalSpeed','moveCluster','length','mousedown','crossVectors'];a7_0x9784=function(){return _0x415582;};return a7_0x9784();}const a7_0x3ff528=a7_0x569e;(function(_0x267384,_0x6aa818){const _0x4569f8=a7_0x569e,_0x51eb43=_0x267384();while(!![]){try{const _0x46b59e=-parseInt(_0x4569f8(0x136))/0x1*(parseInt(_0x4569f8(0x15b))/0x2)+parseInt(_0x4569f8(0x156))/0x3+parseInt(_0x4569f8(0x142))/0x4+-parseInt(_0x4569f8(0x13e))/0x5*(parseInt(_0x4569f8(0x12c))/0x6)+parseInt(_0x4569f8(0x14d))/0x7+parseInt(_0x4569f8(0x138))/0x8+parseInt(_0x4569f8(0x143))/0x9*(-parseInt(_0x4569f8(0x12d))/0xa);if(_0x46b59e===_0x6aa818)break;else _0x51eb43['push'](_0x51eb43['shift']());}catch(_0x4a5b61){_0x51eb43['push'](_0x51eb43['shift']());}}}(a7_0x9784,0xa5e0e),window['MovementMod']={'name':a7_0x3ff528(0x12f),'speedBase':0.8,'speedBoost':1.6,'speedSlow':0.4,'verticalSpeed':0.8,'dragging':![],'dragTarget':null,'lastX':0x0,'lastY':0x0,'init'(_0x4373e5){const _0x595992=a7_0x3ff528;_0x4373e5[_0x595992(0x13a)]['domElement'][_0x595992(0x12e)](_0x595992(0x153),_0x2d92f4=>{const _0x5b481c=_0x595992;if(_0x2d92f4[_0x5b481c(0x145)]===0x2){_0x4373e5['raycaster'][_0x5b481c(0x147)](_0x4373e5[_0x5b481c(0x15a)],_0x4373e5[_0x5b481c(0x155)]);const _0x5d7dc0=_0x4373e5[_0x5b481c(0x13f)][_0x5b481c(0x148)](_0x4373e5[_0x5b481c(0x14e)][_0x5b481c(0x135)],!![]);if(_0x5d7dc0[_0x5b481c(0x152)]>0x0){const _0x389118=_0x5d7dc0[0x0]['object'];_0x389118['userData']&&_0x389118[_0x5b481c(0x13b)][_0x5b481c(0x14a)]===_0x5b481c(0x131)&&(this[_0x5b481c(0x129)]=!![],this[_0x5b481c(0x146)]=_0x389118,this[_0x5b481c(0x149)]=_0x2d92f4[_0x5b481c(0x13c)],this['lastY']=_0x2d92f4[_0x5b481c(0x158)]);}}}),_0x4373e5[_0x595992(0x13a)][_0x595992(0x144)]['addEventListener'](_0x595992(0x130),_0x23b3cf=>{const _0x300637=_0x595992;_0x23b3cf['button']===0x2&&(this[_0x300637(0x129)]=![],this[_0x300637(0x146)]=null);}),_0x4373e5['renderer'][_0x595992(0x144)][_0x595992(0x12e)]('mousemove',_0x2c45bc=>{const _0x2f2ee4=_0x595992;if(this[_0x2f2ee4(0x129)]&&this[_0x2f2ee4(0x146)]){const _0x26cad5=_0x2c45bc[_0x2f2ee4(0x13c)]-this[_0x2f2ee4(0x149)],_0x3c150d=_0x2c45bc[_0x2f2ee4(0x158)]-this['lastY'];this[_0x2f2ee4(0x149)]=_0x2c45bc[_0x2f2ee4(0x13c)],this[_0x2f2ee4(0x132)]=_0x2c45bc[_0x2f2ee4(0x158)];const _0x39ad4d=0.1,_0x324016=new THREE[(_0x2f2ee4(0x13d))](_0x26cad5*_0x39ad4d,-_0x3c150d*_0x39ad4d,0x0);this[_0x2f2ee4(0x151)](this[_0x2f2ee4(0x146)],_0x324016),ClusterMod[_0x2f2ee4(0x141)](_0x4373e5,0x0);}}),_0x4373e5[_0x595992(0x13a)][_0x595992(0x144)][_0x595992(0x12e)](_0x595992(0x133),_0x4daf6e=>_0x4daf6e[_0x595992(0x137)]());},'moveCluster'(_0x6e5ccb,_0x49041f){const _0x89304e=a7_0x3ff528;_0x6e5ccb[_0x89304e(0x15c)][_0x89304e(0x12a)](_0x49041f),_0x6e5ccb[_0x89304e(0x13b)]&&_0x6e5ccb[_0x89304e(0x13b)][_0x89304e(0x135)]&&_0x6e5ccb['userData'][_0x89304e(0x135)][_0x89304e(0x14b)](_0x5a4881=>{const _0x43116d=_0x89304e;_0x5a4881[_0x43116d(0x15c)]['add'](_0x49041f),_0x5a4881[_0x43116d(0x13b)]&&_0x5a4881['userData'][_0x43116d(0x135)]&&_0x5a4881[_0x43116d(0x13b)][_0x43116d(0x135)][_0x43116d(0x14b)](_0x283c75=>{const _0x135789=_0x43116d;_0x283c75[_0x135789(0x15c)][_0x135789(0x12a)](_0x49041f);});});},'update'(_0x21ead3,_0x1a5af7){const _0x89f1cf=a7_0x3ff528;let _0x3d8d6f=this[_0x89f1cf(0x12b)];if(_0x21ead3[_0x89f1cf(0x134)]['shift'])_0x3d8d6f=this['speedBoost'];if(_0x21ead3[_0x89f1cf(0x134)][_0x89f1cf(0x159)])_0x3d8d6f=this[_0x89f1cf(0x128)];const _0xf440d1=new THREE['Vector3']();_0x21ead3[_0x89f1cf(0x155)]['getWorldDirection'](_0xf440d1),_0xf440d1['y']=0x0,_0xf440d1[_0x89f1cf(0x14f)]();const _0x4a7eb5=new THREE['Vector3']();_0x4a7eb5[_0x89f1cf(0x154)](_0xf440d1,_0x21ead3[_0x89f1cf(0x155)]['up'])[_0x89f1cf(0x14f)]();const _0x11540d=new THREE[(_0x89f1cf(0x13d))]();if(_0x21ead3['keys']['w'])_0x11540d[_0x89f1cf(0x12a)](_0xf440d1);if(_0x21ead3[_0x89f1cf(0x134)]['s'])_0x11540d['sub'](_0xf440d1);if(_0x21ead3[_0x89f1cf(0x134)]['d'])_0x11540d[_0x89f1cf(0x12a)](_0x4a7eb5);if(_0x21ead3[_0x89f1cf(0x134)]['a'])_0x11540d[_0x89f1cf(0x157)](_0x4a7eb5);if(_0x21ead3['keys']['q'])_0x11540d['y']-=this['verticalSpeed'];if(_0x21ead3[_0x89f1cf(0x134)]['e'])_0x11540d['y']+=this[_0x89f1cf(0x150)];_0x11540d[_0x89f1cf(0x139)]()>0x0&&(_0x11540d[_0x89f1cf(0x14f)](),_0x21ead3[_0x89f1cf(0x155)][_0x89f1cf(0x15c)][_0x89f1cf(0x140)](_0x11540d,_0x3d8d6f),_0x21ead3[_0x89f1cf(0x14c)]['target'][_0x89f1cf(0x140)](_0x11540d,_0x3d8d6f));}});
+// ------------------------------------------------------------
+// MOVEMENT MODULE — Lock-on Band Dragging (Perfect Precision)
+// ------------------------------------------------------------
+window.MovementMod = {
+  name: "movement",
+
+  dragging: false,
+  dragTarget: null,
+  dragPlane: null,
+  dragStartPoint: null,
+  lastMousePoint: null,
+
+  speedBase: 0.8,
+  speedBoost: 1.6,
+  speedSlow: 0.4,
+  verticalSpeed: 0.8,
+
+  init(app) {
+  this.app = app;  
+    const dom = app.renderer.domElement;
+
+    // ------------------------------------------------------------
+    // Helper: find band node even if clicking its cover/ring
+    // ------------------------------------------------------------
+    const resolveBand = (obj) => {
+      let cur = obj;
+      while (cur) {
+        if (cur.userData?.type === "band") return cur;
+        cur = cur.parent;
+      }
+      return null;
+    };
+
+    // ------------------------------------------------------------
+    // POINTER DOWN → Start lock-on drag
+    // ------------------------------------------------------------
+    dom.addEventListener("pointerdown", (e) => {
+      if (e.button !== 2) return; // right-click only
+      e.preventDefault();
+      dom.setPointerCapture(e.pointerId);
+
+      // Convert mouse to NDC
+      const rect = dom.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width) * 2 - 1;
+      const y = -((e.clientY - rect.top) / rect.height) * 2 + 1;
+
+      app.mouse.set(x, y);
+      app.raycaster.setFromCamera(app.mouse, app.camera);
+
+      const hits = app.raycaster.intersectObjects(app.scene.children, true);
+      if (!hits.length) return;
+
+      const band = resolveBand(hits[0].object);
+      if (!band) return;
+
+      // ⭐ LOCK-ON START
+      this.dragging = true;
+      this.dragTarget = band;
+
+      // Create a drag plane perpendicular to camera
+      const planeNormal = app.camera.getWorldDirection(new THREE.Vector3());
+      this.dragPlane = new THREE.Plane().setFromNormalAndCoplanarPoint(
+        planeNormal,
+        band.position.clone()
+      );
+
+      // Compute initial intersection point
+      this.dragStartPoint = new THREE.Vector3();
+      app.raycaster.ray.intersectPlane(this.dragPlane, this.dragStartPoint);
+
+      this.lastMousePoint = this.dragStartPoint.clone();
+    });
+
+    // ------------------------------------------------------------
+    // POINTER MOVE → Move band EXACTLY with mouse
+    // ------------------------------------------------------------
+    dom.addEventListener("pointermove", (e) => {
+      if (!this.dragging || !this.dragTarget) return;
+
+      // Convert mouse to NDC
+      const rect = dom.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width) * 2 - 1;
+      const y = -((e.clientY - rect.top) / rect.height) * 2 + 1;
+
+      app.mouse.set(x, y);
+      app.raycaster.setFromCamera(app.mouse, app.camera);
+
+      // Project mouse onto drag plane
+      const hitPoint = new THREE.Vector3();
+      app.raycaster.ray.intersectPlane(this.dragPlane, hitPoint);
+
+      if (!hitPoint) return;
+
+      // Compute movement delta
+      const delta = hitPoint.clone().sub(this.lastMousePoint);
+      this.lastMousePoint.copy(hitPoint);
+
+      // Move entire cluster
+      this.moveCluster(this.dragTarget, delta);
+
+      // Update lines
+      ClusterMod.update(app, 0);
+    });
+
+    // ------------------------------------------------------------
+    // POINTER UP → Stop dragging
+    // ------------------------------------------------------------
+    dom.addEventListener("pointerup", (e) => {
+      if (e.button !== 2) return;
+
+      this.dragging = false;
+      this.dragTarget = null;
+      this.dragPlane = null;
+      this.dragStartPoint = null;
+      this.lastMousePoint = null;
+
+      try { dom.releasePointerCapture(e.pointerId); } catch (_) {}
+    });
+
+    dom.addEventListener("contextmenu", (e) => e.preventDefault());
+  },
+
+// ------------------------------------------------------------
+// MOVE CLUSTER (BAND + ALBUMS + TRACKS) AND RESYNC PROGRESS
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// MOVE CLUSTER (BAND + ALBUMS + TRACKS) AND RESYNC PROGRESS
+// ------------------------------------------------------------
+moveCluster(bandNode, delta) {
+  const app = this.app;   // ⭐ get stored app
+  if (!app) return;
+
+  // 1) Move the band
+  bandNode.position.add(delta);
+
+  // 2) Move albums + tracks
+  if (bandNode.userData && bandNode.userData.children) {
+    bandNode.userData.children.forEach(albumNode => {
+      albumNode.position.add(delta);
+
+      if (albumNode.userData && albumNode.userData.children) {
+        albumNode.userData.children.forEach(trackNode => {
+          trackNode.position.add(delta);
+        });
+      }
+    });
+  }
+
+  // 3) If this band contains the currently playing track,
+  //    rebuild the progress line so progressStart/progressEnd
+  //    match the NEW positions.
+  if (window.AudioMod && AudioMod.currentTrackNode) {
+    const albumNode = AudioMod.currentTrackNode.userData.parent;
+    const bandOfCurrent =
+      albumNode && albumNode.userData && albumNode.userData.parent;
+
+    if (bandOfCurrent === bandNode) {
+      AudioMod.createProgressLine(app, AudioMod.currentTrackNode);
+    }
+  }
+},
+
+
+  // ------------------------------------------------------------
+  // WASD/QE camera movement
+  // ------------------------------------------------------------
+  update(app, dt) {
+    let speed = this.speedBase;
+    if (app.keys["shift"]) speed = this.speedBoost;
+    if (app.keys["control"]) speed = this.speedSlow;
+
+    const forward = new THREE.Vector3();
+    app.camera.getWorldDirection(forward);
+    forward.y = 0;
+    forward.normalize();
+
+    const right = new THREE.Vector3();
+    right.crossVectors(forward, app.camera.up).normalize();
+
+    const move = new THREE.Vector3();
+    if (app.keys["w"]) move.add(forward);
+    if (app.keys["s"]) move.sub(forward);
+    if (app.keys["d"]) move.add(right);
+    if (app.keys["a"]) move.sub(right);
+    if (app.keys["q"]) move.y -= this.verticalSpeed;
+    if (app.keys["e"]) move.y += this.verticalSpeed;
+
+    if (move.lengthSq() > 0) {
+      move.normalize();
+      app.camera.position.addScaledVector(move, speed);
+      app.controls.target.addScaledVector(move, speed);
+    }
+  }
+};

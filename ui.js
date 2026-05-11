@@ -1,1 +1,179 @@
-(function(_0x485e43,_0x1ad602){const _0x331424=a12_0x2676,_0x30310e=_0x485e43();while(!![]){try{const _0x3a3c2c=parseInt(_0x331424(0x13a))/0x1+-parseInt(_0x331424(0x168))/0x2*(-parseInt(_0x331424(0x154))/0x3)+parseInt(_0x331424(0x140))/0x4*(-parseInt(_0x331424(0x15c))/0x5)+-parseInt(_0x331424(0x160))/0x6*(parseInt(_0x331424(0x13d))/0x7)+-parseInt(_0x331424(0x135))/0x8+-parseInt(_0x331424(0x143))/0x9+parseInt(_0x331424(0x13c))/0xa;if(_0x3a3c2c===_0x1ad602)break;else _0x30310e['push'](_0x30310e['shift']());}catch(_0x80769e){_0x30310e['push'](_0x30310e['shift']());}}}(a12_0xd39c,0xb62a0));function a12_0xd39c(){const _0x4f7800=['display','btnShuffle','app','btn-lyrics','pause','3pfQjDH','audio','showPauseState','btnPause','btnRepeat','lyricsPanel','playNext','btnLyrics','216610HhPdsn','toggle','classList','currentLyricsPath','1464PAwDUo','panel','playPrev','btnPrev','lyrics-panel','btn-related','shuffle','style','51450unIByT','repeat','relatedMode','then','showPlayState','play','page-next','toggleLyrics','btn-prev','trackTitle','inline-block','1720560pFqIJW','btn-repeat','inline-flex','add','none','1305361znHthT','btn-shuffle','18473250QrWrEp','8323WsckWJ','btnPlay','btn-pause','60mAupOo','remove','block','11495259AOETtW','btn-play','isVideo','prev','btnNext','onclick','getElementById','textContent','currentFileURL','track-title','btnRelated','active'];a12_0xd39c=function(){return _0x4f7800;};return a12_0xd39c();}function a12_0x2676(_0x5f0a5c,_0x2e1a1f){_0x5f0a5c=_0x5f0a5c-0x131;const _0xd39c52=a12_0xd39c();let _0x2676f0=_0xd39c52[_0x5f0a5c];return _0x2676f0;}const UIMod={'name':'UIMod','init'(_0x5e4c32){const _0x8fa612=a12_0x2676;this[_0x8fa612(0x151)]=_0x5e4c32,this[_0x8fa612(0x133)]=document['getElementById'](_0x8fa612(0x14c)),this['lyricsPanel']=document[_0x8fa612(0x149)](_0x8fa612(0x164)),this[_0x8fa612(0x15b)]=document['getElementById'](_0x8fa612(0x152)),this[_0x8fa612(0x14d)]=document[_0x8fa612(0x149)](_0x8fa612(0x165)),this[_0x8fa612(0x13e)]=document['getElementById'](_0x8fa612(0x144)),this[_0x8fa612(0x157)]=document[_0x8fa612(0x149)](_0x8fa612(0x13f)),this['btnPrev']=document[_0x8fa612(0x149)](_0x8fa612(0x132)),this['btnNext']=document[_0x8fa612(0x149)]('btn-next'),this[_0x8fa612(0x158)]=document['getElementById'](_0x8fa612(0x136)),this[_0x8fa612(0x150)]=document[_0x8fa612(0x149)](_0x8fa612(0x13b)),this[_0x8fa612(0x13e)]['onclick']=()=>{const _0x271946=_0x8fa612;if(_0x5e4c32['isVideo']&&_0x5e4c32['currentFileURL']){VideoMod['load'](_0x5e4c32[_0x271946(0x14b)]),this[_0x271946(0x156)]();return;}_0x5e4c32[_0x271946(0x155)][_0x271946(0x16d)](),this[_0x271946(0x156)]();},this[_0x8fa612(0x157)][_0x8fa612(0x148)]=()=>{const _0x3e01e7=_0x8fa612;if(_0x5e4c32[_0x3e01e7(0x145)]){if(VideoMod['video']&&VideoMod[_0x3e01e7(0x161)][_0x3e01e7(0x167)][_0x3e01e7(0x14f)]!==_0x3e01e7(0x139)){VideoMod['video'][_0x3e01e7(0x153)](),this[_0x3e01e7(0x16c)]();return;}this[_0x3e01e7(0x16c)]();this['btnPlay']&&this[_0x3e01e7(0x157)]&&(this[_0x3e01e7(0x13e)][_0x3e01e7(0x167)][_0x3e01e7(0x14f)]=_0x3e01e7(0x134),this[_0x3e01e7(0x157)][_0x3e01e7(0x167)][_0x3e01e7(0x14f)]='none');return;}_0x5e4c32[_0x3e01e7(0x155)][_0x3e01e7(0x153)](),this[_0x3e01e7(0x16c)]();},this[_0x8fa612(0x147)][_0x8fa612(0x148)]=()=>{const _0x262074=_0x8fa612;AudioMod[_0x262074(0x15a)](_0x5e4c32),this[_0x262074(0x156)]();},this[_0x8fa612(0x163)][_0x8fa612(0x148)]=()=>{const _0x59d95f=_0x8fa612;AudioMod[_0x59d95f(0x162)](_0x5e4c32),this[_0x59d95f(0x156)]();},this[_0x8fa612(0x158)][_0x8fa612(0x148)]=()=>{const _0xce7379=_0x8fa612;AudioMod[_0xce7379(0x169)]=!AudioMod['repeat'],AudioMod[_0xce7379(0x169)]?(AudioMod[_0xce7379(0x166)]=![],this['btnShuffle'][_0xce7379(0x15e)][_0xce7379(0x141)]('active'),this[_0xce7379(0x158)]['classList'][_0xce7379(0x138)](_0xce7379(0x14e))):this[_0xce7379(0x158)][_0xce7379(0x15e)]['remove'](_0xce7379(0x14e));},this[_0x8fa612(0x150)][_0x8fa612(0x148)]=()=>{const _0x657943=_0x8fa612;AudioMod[_0x657943(0x166)]=!AudioMod[_0x657943(0x166)],AudioMod[_0x657943(0x166)]?(AudioMod[_0x657943(0x169)]=![],this[_0x657943(0x158)][_0x657943(0x15e)]['remove'](_0x657943(0x14e)),this[_0x657943(0x150)][_0x657943(0x15e)][_0x657943(0x138)](_0x657943(0x14e))):this[_0x657943(0x150)]['classList'][_0x657943(0x141)]('active');},this[_0x8fa612(0x14d)]['onclick']=()=>{const _0x4ef4d6=_0x8fa612;AudioMod['toggleRelated'](_0x5e4c32),this[_0x4ef4d6(0x14d)][_0x4ef4d6(0x15e)][_0x4ef4d6(0x15d)](_0x4ef4d6(0x14e),AudioMod[_0x4ef4d6(0x16a)]);},this[_0x8fa612(0x15b)][_0x8fa612(0x148)]=()=>this[_0x8fa612(0x131)]();const _0xf39282=document['getElementById']('page-prev'),_0x2ee181=document[_0x8fa612(0x149)](_0x8fa612(0x16e));if(_0xf39282)_0xf39282['onclick']=()=>ClusterPageMod[_0x8fa612(0x146)](_0x5e4c32);if(_0x2ee181)_0x2ee181[_0x8fa612(0x148)]=()=>ClusterPageMod['next'](_0x5e4c32);},'showPauseState'(){const _0x370fa7=a12_0x2676;if(this[_0x370fa7(0x151)]['isVideo']&&VideoMod['panel']['style'][_0x370fa7(0x14f)]===_0x370fa7(0x139))return;this[_0x370fa7(0x13e)][_0x370fa7(0x167)][_0x370fa7(0x14f)]=_0x370fa7(0x139),this[_0x370fa7(0x157)]['style'][_0x370fa7(0x14f)]=_0x370fa7(0x137);},'showPlayState'(){const _0x23ca98=a12_0x2676;this[_0x23ca98(0x157)][_0x23ca98(0x167)][_0x23ca98(0x14f)]=_0x23ca98(0x139),this[_0x23ca98(0x13e)][_0x23ca98(0x167)]['display']='inline-flex';},'toggleLyrics'(){const _0x5cf852=a12_0x2676,_0x187b51=this[_0x5cf852(0x151)][_0x5cf852(0x15f)];if(!_0x187b51)return;if(this[_0x5cf852(0x159)][_0x5cf852(0x167)][_0x5cf852(0x14f)]===_0x5cf852(0x142)){this[_0x5cf852(0x159)][_0x5cf852(0x167)]['display']=_0x5cf852(0x139);return;}fetch(_0x187b51)[_0x5cf852(0x16b)](_0x21ca8b=>_0x21ca8b['text']())[_0x5cf852(0x16b)](_0x4ad0a3=>{const _0x181ce6=_0x5cf852;this[_0x181ce6(0x159)][_0x181ce6(0x14a)]=_0x4ad0a3,this[_0x181ce6(0x159)][_0x181ce6(0x167)][_0x181ce6(0x14f)]=_0x181ce6(0x142);})['catch'](()=>{});}};
+// ------------------------------------------------------------
+// UI MODULE (buttons, panels, lyrics, playback controls)
+// ------------------------------------------------------------
+const UIMod = {
+  name: "UIMod",
+
+  init(app) {
+    this.app = app;
+
+    // DOM elements
+    this.trackTitle  = document.getElementById("track-title");
+    this.lyricsPanel = document.getElementById("lyrics-panel");
+
+    // Buttons
+    this.btnLyrics  = document.getElementById("btn-lyrics");
+    this.btnRelated = document.getElementById("btn-related");
+
+    this.btnPlay    = document.getElementById("btn-play");
+    this.btnPause   = document.getElementById("btn-pause");
+    this.btnPrev    = document.getElementById("btn-prev");
+    this.btnNext    = document.getElementById("btn-next");
+    this.btnRepeat  = document.getElementById("btn-repeat");
+    this.btnShuffle = document.getElementById("btn-shuffle");
+
+    // ------------------------------------------------------------
+    // PLAY
+    // ------------------------------------------------------------
+    this.btnPlay.onclick = () => {
+
+      // If current track is a video → reopen video panel
+      if (app.isVideo && app.currentFileURL) {
+        VideoMod.load(app.currentFileURL);
+        this.showPauseState();
+        return;
+      }
+
+      // Normal audio play
+      app.audio.play();
+      this.showPauseState();
+    };
+
+    // ------------------------------------------------------------
+    // PAUSE
+    // ------------------------------------------------------------
+    this.btnPause.onclick = () => {
+
+      // If current track is a video
+      if (app.isVideo) {
+
+        // If video panel is open → pause video
+        if (VideoMod.video && VideoMod.panel.style.display !== "none") {
+          VideoMod.video.pause();
+          this.showPlayState();
+          return;
+        }
+
+        // If video panel is already closed → force PLAY state
+        this.showPlayState();
+
+        // Hard reset footer buttons
+        if (this.btnPlay && this.btnPause) {
+          this.btnPlay.style.display  = "inline-block";
+          this.btnPause.style.display = "none";
+        }
+
+        return;
+      }
+
+      // Normal audio pause
+      app.audio.pause();
+      this.showPlayState();
+    };
+
+    // ------------------------------------------------------------
+    // NEXT / PREV
+    // ------------------------------------------------------------
+    this.btnNext.onclick = () => {
+      AudioMod.playNext(app);
+      this.showPauseState();
+    };
+
+    this.btnPrev.onclick = () => {
+      AudioMod.playPrev(app);
+      this.showPauseState();
+    };
+
+    // ------------------------------------------------------------
+    // REPEAT
+    // ------------------------------------------------------------
+    this.btnRepeat.onclick = () => {
+      AudioMod.repeat = !AudioMod.repeat;
+
+      if (AudioMod.repeat) {
+        AudioMod.shuffle = false;
+        this.btnShuffle.classList.remove("active");
+        this.btnRepeat.classList.add("active");
+      } else {
+        this.btnRepeat.classList.remove("active");
+      }
+    };
+
+    // ------------------------------------------------------------
+    // SHUFFLE
+    // ------------------------------------------------------------
+    this.btnShuffle.onclick = () => {
+      AudioMod.shuffle = !AudioMod.shuffle;
+
+      if (AudioMod.shuffle) {
+        AudioMod.repeat = false;
+        this.btnRepeat.classList.remove("active");
+        this.btnShuffle.classList.add("active");
+      } else {
+        this.btnShuffle.classList.remove("active");
+      }
+    };
+
+    // ------------------------------------------------------------
+    // RELATED
+    // ------------------------------------------------------------
+    this.btnRelated.onclick = () => {
+      AudioMod.toggleRelated(app);
+      this.btnRelated.classList.toggle("active", AudioMod.relatedMode);
+    };
+
+    // ------------------------------------------------------------
+    // LYRICS
+    // ------------------------------------------------------------
+    this.btnLyrics.onclick = () => this.toggleLyrics();
+
+    // ------------------------------------------------------------
+    // PAGE SWITCH BUTTONS (< 1 >)
+    // ------------------------------------------------------------
+    const prev = document.getElementById("page-prev");
+    const next = document.getElementById("page-next");
+
+    if (prev) prev.onclick = () => ClusterPageMod.prev(app);
+    if (next) next.onclick = () => ClusterPageMod.next(app);
+  },
+
+  // ------------------------------------------------------------
+  // UI STATE HELPERS
+  // ------------------------------------------------------------
+  showPauseState() {
+
+    // Do NOT force PAUSE if video is closed
+    if (this.app.isVideo && VideoMod.panel.style.display === "none") {
+      return;
+    }
+
+    this.btnPlay.style.display = "none";
+    this.btnPause.style.display = "inline-flex";
+  },
+
+  showPlayState() {
+    this.btnPause.style.display = "none";
+    this.btnPlay.style.display = "inline-flex";
+  },
+
+  // ------------------------------------------------------------
+  // TOGGLE LYRICS PANEL
+  // ------------------------------------------------------------
+  toggleLyrics() {
+    const path = this.app.currentLyricsPath;
+    if (!path) return;
+
+    if (this.lyricsPanel.style.display === "block") {
+      this.lyricsPanel.style.display = "none";
+      return;
+    }
+
+    fetch(path)
+      .then(r => r.text())
+      .then(text => {
+        this.lyricsPanel.textContent = text;
+        this.lyricsPanel.style.display = "block";
+      })
+      .catch(() => {});
+  }
+};

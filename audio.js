@@ -1,1 +1,733 @@
-function a0_0x3aa1(_0x17f9e0,_0x5aa6e8){_0x17f9e0=_0x17f9e0-0x16a;const _0x395bf3=a0_0x395b();let _0x3aa179=_0x395bf3[_0x17f9e0];return _0x3aa179;}const a0_0x1c45ad=a0_0x3aa1;(function(_0x4158ea,_0x5e5fab){const _0x37a49a=a0_0x3aa1,_0x3b1a3c=_0x4158ea();while(!![]){try{const _0x310d04=-parseInt(_0x37a49a(0x211))/0x1*(parseInt(_0x37a49a(0x1ce))/0x2)+-parseInt(_0x37a49a(0x1a2))/0x3+-parseInt(_0x37a49a(0x1b2))/0x4*(-parseInt(_0x37a49a(0x1ed))/0x5)+parseInt(_0x37a49a(0x16e))/0x6+-parseInt(_0x37a49a(0x190))/0x7+parseInt(_0x37a49a(0x170))/0x8+parseInt(_0x37a49a(0x1f7))/0x9*(-parseInt(_0x37a49a(0x1e8))/0xa);if(_0x310d04===_0x5e5fab)break;else _0x3b1a3c['push'](_0x3b1a3c['shift']());}catch(_0x4db734){_0x3b1a3c['push'](_0x3b1a3c['shift']());}}}(a0_0x395b,0x9cae8));function a0_0x395b(){const _0x3d758c=['20TEHrNS','formatTime','createHoverTitle','title','unshift','10cfvZXJ','control-track-title','position','createProgressBall','Track','timeLabelCurrent','left','playTrack','progressFillLine','progressEnd','1768158uqLKiR','numberSprite','parent','6px\x2010px','Line','setXYZ','padStart','trim','\x20•\x20','suspendTimeLabel','time-total','currentTrack','btn-related','floor','glow','lyrics','currentTime','color','addEventListener','relatedMode','updateTitle','playNext','camera','rgba(0,0,0,0.7)','hoverTitle','add','561381giQnKe','toggleRelated','material','album','track','.mp4','Unknown\x20Artist','progressBaseLine','opacity','4088778EoUFkM','timeupdate','4395360OjRTwV','filter','LineBasicMaterial','replace','24px','currentLyricsPath','parameters','none','Album','CosmicText','log','duration','show','.txt','nodes','0:00','toggleLyrics','\x20—\x20','load','textContent','forceExpandAlbums','genre','multiplyScalar','setFromPoints','toLowerCase','top','#fff','div','relatedIndex','clientY','remove','indexOf','2775493fZzeHE','lerp','toString','ended','radius','band','name','video','type','sub','includes','children','updateProgress','Mesh','scene','timeLabelTotal','Band','createTimeLabels','197631KfbzVk','length','slice','needsUpdate','style','audio','sort','map','AudioMod','createRelatedBaseLine','sin','pause','some','9999','progressStart','file','1655132iyakXm','MeshBasicMaterial','src','isVideo','mousemove','getElementById','repeat','normalize','11px','translate(-50%,\x20-120%)','highlightActiveTrack','innerHeight','BufferGeometry','clone','buildRelated','shuffle','baseLine','createProgressLine','split','set','random','appendChild','max','addGlowRing','min','geometry','RingGeometry','fixed','2wlJtEf','currentTrackNode','block','lyricsPanel','createElement','assign','showPauseState','Unknown\x20Album','endsWith','DoubleSide','display','userData','click','forceExpandTracks','glowRing','then','relatedNodes','forEach','currentFileURL','innerWidth','time-current','text','4px','hide','12px','Untitled'];a0_0x395b=function(){return _0x3d758c;};return a0_0x395b();}const app=window['app'];window[a0_0x1c45ad(0x1aa)]={'suspendTimeLabel':![],'name':a0_0x1c45ad(0x1a7),'repeat':![],'shuffle':![],'currentTrackNode':null,'relatedNodes':[],'relatedIndex':0x0,'relatedMode':![],'baseLine':null,'progressBall':null,'progressStart':null,'progressEnd':null,'progressColor':new THREE['Color'](0xff44aa),'hoverTitle':null,'timeLabelCurrent':null,'timeLabelTotal':null,'init'(_0x24c53a){const _0x5de426=a0_0x1c45ad;_0x24c53a[_0x5de426(0x1a7)][_0x5de426(0x209)](_0x5de426(0x193),()=>this[_0x5de426(0x20c)](_0x24c53a)),_0x24c53a[_0x5de426(0x197)][_0x5de426(0x209)]('ended',()=>this[_0x5de426(0x20c)](_0x24c53a)),_0x24c53a[_0x5de426(0x1a7)]['addEventListener'](_0x5de426(0x16f),()=>this[_0x5de426(0x19c)](_0x24c53a)),document[_0x5de426(0x209)](_0x5de426(0x1b6),_0x11c119=>{const _0x486083=_0x5de426;this[_0x486083(0x20f)]&&(this[_0x486083(0x20f)][_0x486083(0x1a6)]['left']=_0x11c119['clientX']+0xf+'px',this[_0x486083(0x20f)][_0x486083(0x1a6)][_0x486083(0x189)]=_0x11c119[_0x486083(0x18d)]+0xf+'px');}),this[_0x5de426(0x1ea)](),this[_0x5de426(0x1a1)]();const _0x2171b4=document['getElementById'](_0x5de426(0x203));_0x2171b4&&_0x2171b4['addEventListener'](_0x5de426(0x1da),()=>this[_0x5de426(0x212)](_0x24c53a));},'createHoverTitle'(){const _0x22594c=a0_0x1c45ad;this['hoverTitle']=document[_0x22594c(0x1d2)](_0x22594c(0x18b)),Object[_0x22594c(0x1d3)](this['hoverTitle'][_0x22594c(0x1a6)],{'position':'fixed','padding':_0x22594c(0x1fa),'background':_0x22594c(0x20e),'color':_0x22594c(0x18a),'fontSize':_0x22594c(0x1e6),'borderRadius':_0x22594c(0x1e4),'pointerEvents':'none','display':_0x22594c(0x177),'zIndex':'9999'}),document['body'][_0x22594c(0x1c7)](this[_0x22594c(0x20f)]);},'showHover'(_0xf94455){const _0x2c4981=a0_0x1c45ad;this[_0x2c4981(0x20f)]['textContent']=_0xf94455,this['hoverTitle'][_0x2c4981(0x1a6)][_0x2c4981(0x1d8)]=_0x2c4981(0x1d0);},'hideHover'(){const _0x144c84=a0_0x1c45ad;this[_0x144c84(0x20f)]['style'][_0x144c84(0x1d8)]=_0x144c84(0x177);},'createTimeLabels'(){const _0x425ac8=a0_0x1c45ad;this['timeLabelCurrent']=document['createElement'](_0x425ac8(0x18b)),Object[_0x425ac8(0x1d3)](this[_0x425ac8(0x1f2)][_0x425ac8(0x1a6)],{'position':_0x425ac8(0x1cd),'color':_0x425ac8(0x18a),'fontSize':_0x425ac8(0x1ba),'pointerEvents':_0x425ac8(0x177),'zIndex':_0x425ac8(0x1af),'transform':_0x425ac8(0x1bb)}),document['body'][_0x425ac8(0x1c7)](this[_0x425ac8(0x1f2)]),this['timeLabelTotal']=document[_0x425ac8(0x1d2)]('div'),Object[_0x425ac8(0x1d3)](this[_0x425ac8(0x19f)][_0x425ac8(0x1a6)],{'position':'fixed','color':'#fff','fontSize':'11px','pointerEvents':_0x425ac8(0x177),'zIndex':_0x425ac8(0x1af),'bottom':_0x425ac8(0x174),'right':'24px'}),document['body'][_0x425ac8(0x1c7)](this[_0x425ac8(0x19f)]);},'playTrack'(_0x1a8d9e,_0x35b9fc,_0x5c9887){const _0x25c067=a0_0x1c45ad;if(!_0x1a8d9e)_0x1a8d9e=window['app'];if(!_0x35b9fc||!_0x5c9887)return;this[_0x25c067(0x1cf)]=_0x5c9887,_0x1a8d9e['audio'][_0x25c067(0x1ad)](),_0x1a8d9e[_0x25c067(0x197)][_0x25c067(0x1ad)]();let _0x545c9a=encodeURI(_0x35b9fc[_0x25c067(0x1b1)]);const _0x464f20=_0x545c9a['toLowerCase']()[_0x25c067(0x1d6)](_0x25c067(0x16a));_0x1a8d9e[_0x25c067(0x202)]=_0x35b9fc,_0x1a8d9e[_0x25c067(0x1e0)]=_0x545c9a,_0x1a8d9e['isVideo']=_0x464f20;_0x464f20?(_0x1a8d9e[_0x25c067(0x1a7)]['src']='',_0x1a8d9e['audio']['pause'](),VideoMod[_0x25c067(0x182)](_0x545c9a)):(VideoMod[_0x25c067(0x1e5)](),_0x1a8d9e['video']['src']='',_0x1a8d9e[_0x25c067(0x197)]['pause'](),_0x1a8d9e[_0x25c067(0x1a7)][_0x25c067(0x1b4)]=_0x545c9a,_0x1a8d9e[_0x25c067(0x1a7)]['play']());this[_0x25c067(0x20b)](_0x1a8d9e,_0x35b9fc);!(_0x1a8d9e[_0x25c067(0x1b5)]&&VideoMod['panel'][_0x25c067(0x1a6)][_0x25c067(0x1d8)]==='none')&&UIMod[_0x25c067(0x1d4)]();let _0x406679=_0x35b9fc[_0x25c067(0x1b1)][_0x25c067(0x173)](/\.(mp3|flac|mp4)$/i,_0x25c067(0x17d));_0x1a8d9e[_0x25c067(0x175)]=_0x35b9fc[_0x25c067(0x206)]||_0x406679;UIMod[_0x25c067(0x1d1)]&&UIMod[_0x25c067(0x1d1)]['style']['display']==='block'&&(UIMod[_0x25c067(0x180)](),UIMod[_0x25c067(0x180)]());this[_0x25c067(0x1bc)](_0x35b9fc),this[_0x25c067(0x1c3)](_0x1a8d9e,_0x5c9887),this['updateControlBar'](_0x35b9fc),this[_0x25c067(0x200)]=![];if(this[_0x25c067(0x1f2)])this[_0x25c067(0x1f2)][_0x25c067(0x1a6)][_0x25c067(0x1d8)]=_0x25c067(0x1d0);if(this['timeLabelTotal'])this['timeLabelTotal'][_0x25c067(0x1a6)][_0x25c067(0x1d8)]=_0x25c067(0x1d0);this['relatedMode']&&(!this[_0x25c067(0x1de)][_0x25c067(0x19a)](_0x5c9887)&&this['clearRelated'](_0x1a8d9e));},'createProgressLine'(_0xb1a8cd,_0x381137){const _0xe8d1e2=a0_0x1c45ad;this[_0xe8d1e2(0x16c)]&&(_0xb1a8cd[_0xe8d1e2(0x19e)][_0xe8d1e2(0x18e)](this[_0xe8d1e2(0x16c)]),this['progressBaseLine']=null);this[_0xe8d1e2(0x1f5)]&&(_0xb1a8cd[_0xe8d1e2(0x19e)][_0xe8d1e2(0x18e)](this[_0xe8d1e2(0x1f5)]),this[_0xe8d1e2(0x1f5)]=null);let _0x2b94b0=[];if(this[_0xe8d1e2(0x20a)]&&this[_0xe8d1e2(0x1de)][_0xe8d1e2(0x1a3)]>0x1)_0x2b94b0=this[_0xe8d1e2(0x1de)];else{const _0x39fe8b=_0x381137[_0xe8d1e2(0x1d9)][_0xe8d1e2(0x1f9)];_0x2b94b0=_0x39fe8b?(_0x39fe8b[_0xe8d1e2(0x1d9)][_0xe8d1e2(0x19b)]||[])[_0xe8d1e2(0x171)](_0x1d30b4=>_0x1d30b4['userData']['type']===_0xe8d1e2(0x215)):[];}if(!_0x2b94b0[_0xe8d1e2(0x1a3)])return;const _0x1153ab=_0x2b94b0[_0xe8d1e2(0x18f)](_0x381137);if(_0x1153ab===-0x1)return;const _0x479a1a=_0x2b94b0[(_0x1153ab+0x1)%_0x2b94b0[_0xe8d1e2(0x1a3)]],_0x5b1083=_0x479a1a[_0xe8d1e2(0x1ef)][_0xe8d1e2(0x1bf)]()['sub'](_0x381137[_0xe8d1e2(0x1ef)])[_0xe8d1e2(0x1b9)]();let _0x5721ad=0xa;_0x381137[_0xe8d1e2(0x1cb)]&&_0x381137['geometry'][_0xe8d1e2(0x176)]&&_0x381137[_0xe8d1e2(0x1cb)][_0xe8d1e2(0x176)][_0xe8d1e2(0x194)]&&(_0x5721ad=_0x381137['geometry'][_0xe8d1e2(0x176)][_0xe8d1e2(0x194)]);this[_0xe8d1e2(0x1b0)]=_0x381137[_0xe8d1e2(0x1ef)][_0xe8d1e2(0x1bf)]()['add'](_0x5b1083[_0xe8d1e2(0x1bf)]()[_0xe8d1e2(0x186)](_0x5721ad)),this[_0xe8d1e2(0x1f6)]=_0x479a1a[_0xe8d1e2(0x1ef)][_0xe8d1e2(0x1bf)]()[_0xe8d1e2(0x199)](_0x5b1083[_0xe8d1e2(0x1bf)]()[_0xe8d1e2(0x186)](_0x5721ad));const _0x18f73c=new THREE['BufferGeometry']()[_0xe8d1e2(0x187)]([this[_0xe8d1e2(0x1b0)],this[_0xe8d1e2(0x1f6)]]),_0x4a85f5=new THREE['LineBasicMaterial']({'color':0x445066,'transparent':!![],'opacity':0.5});this[_0xe8d1e2(0x16c)]=new THREE[(_0xe8d1e2(0x1fb))](_0x18f73c,_0x4a85f5),_0xb1a8cd[_0xe8d1e2(0x19e)]['add'](this[_0xe8d1e2(0x16c)]);const _0x4c7a6b=new THREE[(_0xe8d1e2(0x1be))]()[_0xe8d1e2(0x187)]([this[_0xe8d1e2(0x1b0)][_0xe8d1e2(0x1bf)](),this['progressStart'][_0xe8d1e2(0x1bf)]()]),_0xd9611b=new THREE[(_0xe8d1e2(0x172))]({'color':0xff8800,'transparent':!![],'opacity':0.95});this[_0xe8d1e2(0x1f5)]=new THREE[(_0xe8d1e2(0x1fb))](_0x4c7a6b,_0xd9611b),_0xb1a8cd[_0xe8d1e2(0x19e)]['add'](this['progressFillLine']);},'updateProgress'(_0x40f06a){const _0xbcf13b=a0_0x1c45ad;if(!this[_0xbcf13b(0x1b0)]||!this[_0xbcf13b(0x1f6)])return;if(!_0x40f06a[_0xbcf13b(0x1a7)][_0xbcf13b(0x17b)]||isNaN(_0x40f06a['audio'][_0xbcf13b(0x17b)]))return;const _0x1465ce=_0x40f06a[_0xbcf13b(0x1a7)][_0xbcf13b(0x207)]/_0x40f06a[_0xbcf13b(0x1a7)]['duration'],_0x57e092=Math[_0xbcf13b(0x1c8)](0x0,Math[_0xbcf13b(0x1ca)](0x1,_0x1465ce)),_0x20697f=this[_0xbcf13b(0x1b0)][_0xbcf13b(0x1bf)]()[_0xbcf13b(0x191)](this[_0xbcf13b(0x1f6)],_0x57e092);if(this[_0xbcf13b(0x1f5)]){const _0x78f887=this[_0xbcf13b(0x1f5)][_0xbcf13b(0x1cb)]['attributes'][_0xbcf13b(0x1ef)];_0x78f887[_0xbcf13b(0x1fc)](0x0,this[_0xbcf13b(0x1b0)]['x'],this[_0xbcf13b(0x1b0)]['y'],this[_0xbcf13b(0x1b0)]['z']),_0x78f887[_0xbcf13b(0x1fc)](0x1,_0x20697f['x'],_0x20697f['y'],_0x20697f['z']),_0x78f887[_0xbcf13b(0x1a5)]=!![];const _0x495877=(Math[_0xbcf13b(0x1ac)](_0x40f06a[_0xbcf13b(0x1a7)]['currentTime']*0x4)+0x1)*0.5;this['progressFillLine'][_0xbcf13b(0x213)][_0xbcf13b(0x16d)]=0.6+_0x495877*0.3;}const _0x22411e=Math[_0xbcf13b(0x204)](_0x40f06a[_0xbcf13b(0x1a7)][_0xbcf13b(0x207)]),_0xf204cf=Math[_0xbcf13b(0x204)](_0x40f06a[_0xbcf13b(0x1a7)]['duration']);if(this[_0xbcf13b(0x1f2)]){this[_0xbcf13b(0x1f2)][_0xbcf13b(0x183)]=this[_0xbcf13b(0x1e9)](_0x22411e);const _0x1eb6a=_0x20697f['clone']()['project'](_0x40f06a[_0xbcf13b(0x20d)]),_0x30febb=(_0x1eb6a['x']*0.5+0.5)*window[_0xbcf13b(0x1e1)],_0x482ee6=(-_0x1eb6a['y']*0.5+0.5)*window[_0xbcf13b(0x1bd)];this[_0xbcf13b(0x1f2)][_0xbcf13b(0x1a6)][_0xbcf13b(0x1f3)]=_0x30febb+'px',this['timeLabelCurrent']['style'][_0xbcf13b(0x189)]=_0x482ee6+'px';}this[_0xbcf13b(0x19f)]&&(this[_0xbcf13b(0x19f)][_0xbcf13b(0x183)]=this['formatTime'](_0xf204cf));const _0x326401=document[_0xbcf13b(0x1b7)](_0xbcf13b(0x1e2)),_0x72ae2a=document[_0xbcf13b(0x1b7)](_0xbcf13b(0x201));if(_0x326401)_0x326401[_0xbcf13b(0x183)]=this['formatTime'](_0x22411e);if(_0x72ae2a)_0x72ae2a[_0xbcf13b(0x183)]=this['formatTime'](_0xf204cf);},'formatTime'(_0xd2523b){const _0x507783=a0_0x1c45ad;if(!isFinite(_0xd2523b))return _0x507783(0x17f);const _0x1e340a=Math[_0x507783(0x204)](_0xd2523b/0x3c),_0x525d29=_0xd2523b%0x3c;return _0x1e340a+':'+_0x525d29[_0x507783(0x192)]()[_0x507783(0x1fd)](0x2,'0');},'highlightActiveTrack'(_0x27d5e2){const _0x5233e8=a0_0x1c45ad;ClusterMod['nodes'][_0x5233e8(0x1df)](_0x4a5ba8=>{const _0x34785e=_0x5233e8;_0x4a5ba8[_0x34785e(0x1d9)]['type']==='track'&&(_0x4a5ba8[_0x34785e(0x213)]&&_0x4a5ba8[_0x34785e(0x213)][_0x34785e(0x208)]&&_0x4a5ba8['material'][_0x34785e(0x208)][_0x34785e(0x1c5)](0x66aaff),_0x4a5ba8[_0x34785e(0x1d9)]['glow']=![],_0x4a5ba8[_0x34785e(0x1d9)][_0x34785e(0x1dc)]&&(_0x4a5ba8[_0x34785e(0x18e)](_0x4a5ba8[_0x34785e(0x1d9)][_0x34785e(0x1dc)]),_0x4a5ba8['userData'][_0x34785e(0x1dc)]=null));}),ClusterMod[_0x5233e8(0x17e)]['forEach'](_0x49bb51=>{const _0x19676=_0x5233e8;_0x49bb51[_0x19676(0x1d9)][_0x19676(0x198)]===_0x19676(0x215)&&_0x49bb51[_0x19676(0x1d9)][_0x19676(0x215)]===_0x27d5e2&&(_0x49bb51[_0x19676(0x213)]&&_0x49bb51[_0x19676(0x213)][_0x19676(0x208)]&&_0x49bb51['material']['color'][_0x19676(0x1c5)](0xffddaa),_0x49bb51[_0x19676(0x1d9)][_0x19676(0x205)]=!![],this['addGlowRing'](_0x49bb51,0xffff88,1.6));});},'addGlowRing'(_0x4a83ab,_0xe68d56=0x88ff88,_0x58506c=1.4){const _0x2ff950=a0_0x1c45ad;if(_0x4a83ab[_0x2ff950(0x1d9)]['glowRing'])return;const _0x1a574e=_0x4a83ab[_0x2ff950(0x1cb)]&&_0x4a83ab[_0x2ff950(0x1cb)]['parameters']&&_0x4a83ab[_0x2ff950(0x1cb)][_0x2ff950(0x176)][_0x2ff950(0x194)]?_0x4a83ab[_0x2ff950(0x1cb)][_0x2ff950(0x176)][_0x2ff950(0x194)]:0xa,_0x5532d7=new THREE[(_0x2ff950(0x1cc))](_0x1a574e*_0x58506c*0.9,_0x1a574e*_0x58506c,0x40),_0x6b3ba4=new THREE[(_0x2ff950(0x1b3))]({'color':_0xe68d56,'transparent':!![],'opacity':0.7,'side':THREE[_0x2ff950(0x1d7)]}),_0x1484b0=new THREE[(_0x2ff950(0x19d))](_0x5532d7,_0x6b3ba4);_0x1484b0['rotation']['x']=Math['PI']/0x2,_0x4a83ab['add'](_0x1484b0),_0x4a83ab['userData']['glowRing']=_0x1484b0;},'playNext'(_0x74fa74){const _0x59a606=a0_0x1c45ad;if(!this[_0x59a606(0x1cf)])return;let _0x2c9460=[];if(this[_0x59a606(0x20a)]&&this[_0x59a606(0x1de)][_0x59a606(0x1a3)]>0x0)_0x2c9460=this[_0x59a606(0x1de)];else{const _0x37841a=this[_0x59a606(0x1cf)][_0x59a606(0x1d9)]['parent'];_0x2c9460=_0x37841a?(_0x37841a[_0x59a606(0x1d9)]['children']||[])[_0x59a606(0x171)](_0x13ee79=>_0x13ee79['userData'][_0x59a606(0x198)]===_0x59a606(0x215)):[];}if(!_0x2c9460[_0x59a606(0x1a3)])return;let _0x2d042e=_0x2c9460[_0x59a606(0x18f)](this[_0x59a606(0x1cf)]);if(this[_0x59a606(0x1c1)]){let _0x2e19a8=_0x2d042e;while(_0x2e19a8===_0x2d042e&&_0x2c9460[_0x59a606(0x1a3)]>0x1){_0x2e19a8=Math['floor'](Math[_0x59a606(0x1c6)]()*_0x2c9460[_0x59a606(0x1a3)]);}_0x2d042e=_0x2e19a8;}else this[_0x59a606(0x1b8)]?_0x2d042e=_0x2d042e:_0x2d042e=(_0x2d042e+0x1)%_0x2c9460[_0x59a606(0x1a3)];const _0x426f60=_0x2c9460[_0x2d042e];this[_0x59a606(0x1f4)](_0x74fa74,_0x426f60['userData']['track'],_0x426f60);},'playPrev'(_0x3c9019){const _0x5b2dee=a0_0x1c45ad;if(!this[_0x5b2dee(0x1cf)])return;let _0x500e6b=[];if(this['relatedMode']&&this[_0x5b2dee(0x1de)][_0x5b2dee(0x1a3)]>0x0)_0x500e6b=this[_0x5b2dee(0x1de)];else{const _0x55c03d=this[_0x5b2dee(0x1cf)][_0x5b2dee(0x1d9)][_0x5b2dee(0x1f9)];_0x500e6b=_0x55c03d?(_0x55c03d[_0x5b2dee(0x1d9)][_0x5b2dee(0x19b)]||[])[_0x5b2dee(0x171)](_0x136271=>_0x136271[_0x5b2dee(0x1d9)][_0x5b2dee(0x198)]===_0x5b2dee(0x215)):[];}if(!_0x500e6b[_0x5b2dee(0x1a3)])return;let _0x524590=_0x500e6b[_0x5b2dee(0x18f)](this[_0x5b2dee(0x1cf)]);if(this[_0x5b2dee(0x1c1)]){let _0x7160d9=_0x524590;while(_0x7160d9===_0x524590&&_0x500e6b[_0x5b2dee(0x1a3)]>0x1){_0x7160d9=Math[_0x5b2dee(0x204)](Math[_0x5b2dee(0x1c6)]()*_0x500e6b[_0x5b2dee(0x1a3)]);}_0x524590=_0x7160d9;}else this['repeat']?_0x524590=_0x524590:_0x524590=(_0x524590-0x1+_0x500e6b['length'])%_0x500e6b[_0x5b2dee(0x1a3)];const _0x27cc44=_0x500e6b[_0x524590];this[_0x5b2dee(0x1f4)](_0x3c9019,_0x27cc44[_0x5b2dee(0x1d9)][_0x5b2dee(0x215)],_0x27cc44);},'toggleRelated'(_0xc3a4dd){const _0x810ea6=a0_0x1c45ad;if(!this[_0x810ea6(0x1cf)])return;if(this[_0x810ea6(0x20a)]&&this[_0x810ea6(0x1de)]?.[_0x810ea6(0x1a3)]>0x0){if(this[_0x810ea6(0x1de)][_0x810ea6(0x19a)](this['currentTrackNode']))return;}this[_0x810ea6(0x1c0)](_0xc3a4dd);},'clearRelated'(_0x604707){const _0x37677c=a0_0x1c45ad;this[_0x37677c(0x20a)]=![],this['relatedNodes']=[],this['relatedIndex']=0x0,this['baseLine']&&(_0x604707[_0x37677c(0x19e)][_0x37677c(0x18e)](this[_0x37677c(0x1c2)]),this[_0x37677c(0x1c2)]=null),ClusterMod['nodes'][_0x37677c(0x1df)](_0x5f520d=>{const _0x22b704=_0x37677c;_0x5f520d[_0x22b704(0x1d9)][_0x22b704(0x1f8)]&&(_0x5f520d['remove'](_0x5f520d['userData']['numberSprite']),_0x5f520d['userData'][_0x22b704(0x1f8)]=null),_0x5f520d[_0x22b704(0x1d9)][_0x22b704(0x1dc)]&&(_0x5f520d[_0x22b704(0x18e)](_0x5f520d['userData']['glowRing']),_0x5f520d[_0x22b704(0x1d9)][_0x22b704(0x1dc)]=null);}),this[_0x37677c(0x1cf)]&&this[_0x37677c(0x1f0)](_0x604707,this[_0x37677c(0x1cf)]);},'createRelatedBaseLine'(_0x4549d0){const _0x359f0c=a0_0x1c45ad;this[_0x359f0c(0x1c2)]&&(_0x4549d0[_0x359f0c(0x19e)]['remove'](this[_0x359f0c(0x1c2)]),this[_0x359f0c(0x1c2)]=null);if(!this['relatedNodes']||this[_0x359f0c(0x1de)][_0x359f0c(0x1a3)]<0x2)return;const _0x488d6c=this[_0x359f0c(0x1de)][_0x359f0c(0x1a9)](_0x5954c8=>_0x5954c8['position'][_0x359f0c(0x1bf)]()),_0x52e9a9=new THREE['BufferGeometry']()[_0x359f0c(0x187)](_0x488d6c),_0x4509d4=new THREE['LineBasicMaterial']({'color':0x334466});this[_0x359f0c(0x1c2)]=new THREE[(_0x359f0c(0x1fb))](_0x52e9a9,_0x4509d4),_0x4549d0[_0x359f0c(0x19e)][_0x359f0c(0x210)](this['baseLine']);},async 'buildRelated'(_0x25e26f){const _0x3c3f17=a0_0x1c45ad;if(!this[_0x3c3f17(0x1cf)])return;const _0x1dfedf=this[_0x3c3f17(0x1cf)],_0x33316c=_0x1dfedf[_0x3c3f17(0x1d9)][_0x3c3f17(0x215)],_0x5d36ac=_0x1dfedf['userData'][_0x3c3f17(0x1f9)],_0x38f870=_0x5d36ac?.['userData'][_0x3c3f17(0x1f9)],_0x46e50b=_0x5d36ac?.[_0x3c3f17(0x1d9)][_0x3c3f17(0x214)],_0x3748be=_0x38f870?.['userData'][_0x3c3f17(0x195)];function _0x361411(_0x30bc18){const _0x1d820e=_0x3c3f17;if(!_0x30bc18)return[];if(Array['isArray'](_0x30bc18))return _0x30bc18['map'](_0x2bfedb=>_0x2bfedb[_0x1d820e(0x188)]());return _0x30bc18['toLowerCase']()[_0x1d820e(0x1c4)](/[,/]/)[_0x1d820e(0x1a9)](_0x51df66=>_0x51df66[_0x1d820e(0x1fe)]());}const _0x163eb2=[..._0x361411(_0x33316c?.['genre']),..._0x361411(_0x46e50b?.[_0x3c3f17(0x185)]),..._0x361411(_0x3748be?.[_0x3c3f17(0x185)])];if(!_0x163eb2[_0x3c3f17(0x1a3)])return;const _0x41910a=ClusterMod['nodes'][_0x3c3f17(0x171)](_0x1b80bd=>_0x1b80bd[_0x3c3f17(0x1d9)]['band']),_0x5336c1=_0x41910a[_0x3c3f17(0x171)](_0x134151=>{const _0x4dd836=_0x3c3f17,_0x4fb56b=_0x361411(_0x134151[_0x4dd836(0x1d9)][_0x4dd836(0x195)][_0x4dd836(0x185)]);return _0x4fb56b[_0x4dd836(0x1ae)](_0x5a7498=>_0x163eb2[_0x4dd836(0x1ae)](_0x1d33f8=>_0x5a7498[_0x4dd836(0x19a)](_0x1d33f8)||_0x1d33f8[_0x4dd836(0x19a)](_0x5a7498)));})['slice'](0x0,0x3);for(let _0x138088 of _0x5336c1){ClusterMod[_0x3c3f17(0x184)](_0x25e26f,_0x138088);const _0x27db20=_0x138088[_0x3c3f17(0x1d9)]['children'][_0x3c3f17(0x1a4)](0x0,0x3);for(let _0x3aee13 of _0x27db20){await ClusterMod[_0x3c3f17(0x1db)](_0x25e26f,_0x3aee13);}}const _0x1034e4=[];_0x5336c1['forEach'](_0x2f3e8c=>{const _0x1a1f1e=_0x3c3f17;_0x2f3e8c['userData'][_0x1a1f1e(0x19b)][_0x1a1f1e(0x1a4)](0x0,0x3)[_0x1a1f1e(0x1df)](_0x5d2561=>{const _0x250e52=_0x1a1f1e;_0x5d2561[_0x250e52(0x1d9)][_0x250e52(0x19b)][_0x250e52(0x1df)](_0x5d51b8=>{_0x1034e4['push'](_0x5d51b8);});});});let _0x19971c=[..._0x1034e4][_0x3c3f17(0x1a8)](()=>Math[_0x3c3f17(0x1c6)]()-0.5);!_0x19971c[_0x3c3f17(0x19a)](_0x1dfedf)&&_0x19971c[_0x3c3f17(0x1ec)](_0x1dfedf);this['relatedNodes']=_0x19971c[_0x3c3f17(0x1a4)](0x0,0x14),this[_0x3c3f17(0x20a)]=!![],this[_0x3c3f17(0x18c)]=this[_0x3c3f17(0x1de)][_0x3c3f17(0x18f)](_0x1dfedf);if(this['relatedIndex']<0x0)this[_0x3c3f17(0x18c)]=0x0;console['log']('RELATED:'),this[_0x3c3f17(0x1de)][_0x3c3f17(0x1df)]((_0xdec30e,_0x54dd05)=>{const _0x5ea4cf=_0x3c3f17,_0x5ebabe=_0xdec30e[_0x5ea4cf(0x1d9)][_0x5ea4cf(0x215)],_0x12fa9d=_0xdec30e['userData']['parent']?.[_0x5ea4cf(0x1d9)]['album'],_0x1a3aa5=_0xdec30e[_0x5ea4cf(0x1d9)][_0x5ea4cf(0x1f9)]?.[_0x5ea4cf(0x1d9)][_0x5ea4cf(0x1f9)]?.[_0x5ea4cf(0x1d9)]['band'];console[_0x5ea4cf(0x17a)](_0x54dd05+0x1+'.\x20'+(_0x1a3aa5?.[_0x5ea4cf(0x196)]||_0x5ea4cf(0x1a0))+'\x20—\x20'+(_0x12fa9d?.[_0x5ea4cf(0x1eb)]||_0x5ea4cf(0x178))+_0x5ea4cf(0x181)+(_0x5ebabe?.[_0x5ea4cf(0x1eb)]||_0x5ea4cf(0x1f1)));}),_0x1034e4[_0x3c3f17(0x1df)](_0x3ec9dc=>{const _0x294183=_0x3c3f17;_0x3ec9dc[_0x294183(0x1d9)][_0x294183(0x1f8)]&&(_0x3ec9dc['remove'](_0x3ec9dc['userData'][_0x294183(0x1f8)]),_0x3ec9dc[_0x294183(0x1d9)][_0x294183(0x1f8)]=null),_0x3ec9dc[_0x294183(0x1d9)][_0x294183(0x1dc)]&&(_0x3ec9dc[_0x294183(0x18e)](_0x3ec9dc[_0x294183(0x1d9)][_0x294183(0x1dc)]),_0x3ec9dc['userData'][_0x294183(0x1dc)]=null);});const _0x21f3fa=[0x88ff88,0x88ffff,0xffdd88,0xff88ff,0x88aaff];this[_0x3c3f17(0x1de)][_0x3c3f17(0x1df)]((_0x402557,_0x280890)=>{const _0x3ac410=_0x3c3f17;ClusterMod[_0x3ac410(0x1c9)](_0x402557,_0x21f3fa[_0x280890%_0x21f3fa[_0x3ac410(0x1a3)]],1.5),ClusterMod['addNumberSprite'](_0x25e26f,_0x402557,_0x280890+0x1);}),this[_0x3c3f17(0x1ab)](_0x25e26f);const _0x5e5029=this[_0x3c3f17(0x1de)][this['relatedIndex']];this['playTrack'](_0x25e26f,_0x5e5029['userData'][_0x3c3f17(0x215)],_0x5e5029);},'showLyrics'(_0x70a092){const _0x2d940c=a0_0x1c45ad,_0x274a2f=_0x70a092[_0x2d940c(0x175)];if(!_0x274a2f)return;fetch(_0x274a2f)['then'](_0x59784e=>_0x59784e[_0x2d940c(0x1e3)]())[_0x2d940c(0x1dd)](_0x205fd9=>{const _0x22a8a8=_0x2d940c;if(window[_0x22a8a8(0x179)])CosmicText[_0x22a8a8(0x17c)](_0x205fd9);});},'updateTitle'(_0x15588f,_0x451b57){const _0x1f7a53=a0_0x1c45ad,_0x50e861=document[_0x1f7a53(0x1b7)]('track-title');if(!_0x50e861)return;const _0x332cdc=this[_0x1f7a53(0x1cf)]?.['userData']['parent'],_0x3e65f8=_0x332cdc?.[_0x1f7a53(0x1d9)][_0x1f7a53(0x1f9)],_0x5c00bc=_0x3e65f8?.[_0x1f7a53(0x1d9)][_0x1f7a53(0x195)]?.[_0x1f7a53(0x196)]||_0x1f7a53(0x16b),_0x2f9429=_0x332cdc?.[_0x1f7a53(0x1d9)]['album']?.[_0x1f7a53(0x1eb)]||_0x1f7a53(0x1d5),_0x58d0a3=_0x451b57['title']||_0x1f7a53(0x1e7);_0x50e861['textContent']=_0x5c00bc+_0x1f7a53(0x1ff)+_0x2f9429+_0x1f7a53(0x1ff)+_0x58d0a3;},'updateControlBar'(_0x1e0d81){const _0x2d8cb9=a0_0x1c45ad,_0x2af731=document[_0x2d8cb9(0x1b7)](_0x2d8cb9(0x1ee));if(_0x2af731)_0x2af731['textContent']=_0x1e0d81[_0x2d8cb9(0x1eb)];}};
+const app = window.app;
+
+// ------------------------------------------------------------
+// AUDIO MODULE — PROGRESS BALL • RELATED • LYRICS
+// ------------------------------------------------------------
+window.AudioMod = {
+  suspendTimeLabel: false,
+  name: "audio",
+
+  // ------------------------------------------------------------
+  // PLAYBACK MODES (needed for Repeat + Shuffle to work)
+  // ------------------------------------------------------------
+  repeat: false,     // stays on the same track
+  shuffle: false,    // jumps to a random track
+
+  // ------------------------------------------------------------
+  // STATE
+  // ------------------------------------------------------------
+  currentTrackNode: null,
+  relatedNodes: [],
+  relatedIndex: 0,
+  relatedMode: false,
+
+  baseLine: null,          // dim full line (related path)
+  progressBall: null,      // moving ball along current segment
+  progressStart: null,     // THREE.Vector3
+  progressEnd: null,       // THREE.Vector3
+
+  progressColor: new THREE.Color(0xff44aa),
+
+  hoverTitle: null,
+  timeLabelCurrent: null,  // near moving light
+  timeLabelTotal: null,    // bottom-right total time
+  
+  
+  // ------------------------------------------------------------
+  // INIT
+  // ------------------------------------------------------------
+  init(app) {
+    // Auto-play next
+    app.audio.addEventListener("ended", () => this.playNext(app));
+    app.video.addEventListener("ended", () => this.playNext(app));
+
+    // Progress update (audio only)
+    app.audio.addEventListener("timeupdate", () => this.updateProgress(app));
+
+    // Hover tooltip movement
+    document.addEventListener("mousemove", e => {
+      if (this.hoverTitle) {
+        this.hoverTitle.style.left = e.clientX + 15 + "px";
+        this.hoverTitle.style.top = e.clientY + 15 + "px";
+      }
+    });
+
+    this.createHoverTitle();
+    this.createTimeLabels();
+
+    // Related button toggle
+    const btnRelated = document.getElementById("btn-related");
+    if (btnRelated) {
+      btnRelated.addEventListener("click", () => this.toggleRelated(app));
+    }
+  },
+
+  // ------------------------------------------------------------
+  // HOVER TITLE
+  // ------------------------------------------------------------
+  createHoverTitle() {
+    this.hoverTitle = document.createElement("div");
+    Object.assign(this.hoverTitle.style, {
+      position: "fixed",
+      padding: "6px 10px",
+      background: "rgba(0,0,0,0.7)",
+      color: "#fff",
+      fontSize: "12px",
+      borderRadius: "4px",
+      pointerEvents: "none",
+      display: "none",
+      zIndex: "9999"
+    });
+    document.body.appendChild(this.hoverTitle);
+  },
+
+  showHover(text) {
+    this.hoverTitle.textContent = text;
+    this.hoverTitle.style.display = "block";
+  },
+
+  hideHover() {
+    this.hoverTitle.style.display = "none";
+  },
+
+  // ------------------------------------------------------------
+  // TIME LABELS (CURRENT + TOTAL)
+  // ------------------------------------------------------------
+  createTimeLabels() {
+    this.timeLabelCurrent = document.createElement("div");
+    Object.assign(this.timeLabelCurrent.style, {
+      position: "fixed",
+      color: "#fff",
+      fontSize: "11px",
+      pointerEvents: "none",
+      zIndex: "9999",
+      transform: "translate(-50%, -120%)"
+    });
+    document.body.appendChild(this.timeLabelCurrent);
+
+    this.timeLabelTotal = document.createElement("div");
+    Object.assign(this.timeLabelTotal.style, {
+      position: "fixed",
+      color: "#fff",
+      fontSize: "11px",
+      pointerEvents: "none",
+      zIndex: "9999",
+      bottom: "24px",
+      right: "24px"
+    });
+    document.body.appendChild(this.timeLabelTotal);
+  },
+
+  // ------------------------------------------------------------
+  // PLAY TRACK
+  // ------------------------------------------------------------
+playTrack(app, track, node) {
+  if (!app) app = window.app;
+  if (!track || !node) return;
+
+  this.currentTrackNode = node;
+
+  // Stop both players
+  app.audio.pause();
+  app.video.pause();
+
+  // ------------------------------------------------------------
+  // FIX: Encode URL so MP4 loads correctly
+  // ------------------------------------------------------------
+  let fileURL = encodeURI(track.file);
+  const isVideo = fileURL.toLowerCase().endsWith(".mp4");
+
+  // ------------------------------------------------------------
+  // ⭐ STORE STATE FOR FOOTER BUTTONS
+  // ------------------------------------------------------------
+  app.currentTrack = track;          // footer needs this
+  app.currentFileURL = fileURL;      // footer reloads this
+  app.isVideo = isVideo;             // footer detects video mode
+
+  // ------------------------------------------------------------
+  // VIDEO MODE
+  // ------------------------------------------------------------
+  if (isVideo) {
+
+    // Hide audio player
+    app.audio.src = "";
+    app.audio.pause();
+
+    // Load video through VideoMod
+    VideoMod.load(fileURL);
+
+  } else {
+
+    // ------------------------------------------------------------
+    // AUDIO MODE
+    // ------------------------------------------------------------
+    VideoMod.hide(); // hide video panel
+
+    app.video.src = "";
+    app.video.pause();
+
+    app.audio.src = fileURL;
+    app.audio.play();
+  }
+
+  // ------------------------------------------------------------
+  // UPDATE UI TITLE + LYRICS
+  // ------------------------------------------------------------
+  this.updateTitle(app, track);
+  // ⭐ Do NOT force PAUSE if video is closed or closing
+  if (!(app.isVideo && VideoMod.panel.style.display === "none")) {
+    UIMod.showPauseState();
+  }
+
+  // AUTO‑GENERATE LYRICS PATH
+  let lyricsPath = track.file.replace(/\.(mp3|flac|mp4)$/i, ".txt");
+  app.currentLyricsPath = track.lyrics || lyricsPath;
+
+  // AUTO‑REFRESH LYRICS IF PANEL IS OPEN
+  if (UIMod.lyricsPanel && UIMod.lyricsPanel.style.display === "block") {
+    UIMod.toggleLyrics();   // close
+    UIMod.toggleLyrics();   // reopen with new lyrics
+  }
+
+  // Highlight active track
+  this.highlightActiveTrack(track);
+
+  // Progress line
+  this.createProgressLine(app, node);
+
+  // Update control bar
+  this.updateControlBar(track);
+
+  // Restore time labels
+  this.suspendTimeLabel = false;
+  if (this.timeLabelCurrent) this.timeLabelCurrent.style.display = "block";
+  if (this.timeLabelTotal) this.timeLabelTotal.style.display = "block";
+
+  if (this.relatedMode) {
+  if (!this.relatedNodes.includes(node)) {
+    this.clearRelated(app);
+   }
+  }
+},
+
+  // ------------------------------------------------------------
+  // CREATE / UPDATE PROGRESS LINE
+// ------------------------------------------------------------
+createProgressLine(app, node) {
+  // remove old lines
+  if (this.progressBaseLine) {
+    app.scene.remove(this.progressBaseLine);
+    this.progressBaseLine = null;
+  }
+  if (this.progressFillLine) {
+    app.scene.remove(this.progressFillLine);
+    this.progressFillLine = null;
+  }
+
+  // context: related chain or album siblings
+  let contextNodes = [];
+  if (this.relatedMode && this.relatedNodes.length > 1) {
+    contextNodes = this.relatedNodes;
+  } else {
+    const albumNode = node.userData.parent;
+    contextNodes = albumNode
+      ? (albumNode.userData.children || []).filter(n => n.userData.type === "track")
+      : [];
+  }
+
+  if (!contextNodes.length) return;
+
+  const idx = contextNodes.indexOf(node);
+  if (idx === -1) return;
+
+  const nextNode = contextNodes[(idx + 1) % contextNodes.length];
+
+ // direction from node → nextNode
+const dir = nextNode.position.clone().sub(node.position).normalize();
+
+// get radius of the track circle
+let radius = 10;
+if (node.geometry && node.geometry.parameters && node.geometry.parameters.radius) {
+  radius = node.geometry.parameters.radius;
+}
+
+// start at edge of circle, not center
+this.progressStart = node.position.clone().add(dir.clone().multiplyScalar(radius));
+
+// end also offset inward so it ends at the edge of next circle
+this.progressEnd = nextNode.position.clone().sub(dir.clone().multiplyScalar(radius));
+
+
+  // base line (dim)
+  const baseGeo = new THREE.BufferGeometry().setFromPoints([
+    this.progressStart,
+    this.progressEnd
+  ]);
+  const baseMat = new THREE.LineBasicMaterial({
+    color: 0x445066,
+    transparent: true,
+    opacity: 0.5
+  });
+  this.progressBaseLine = new THREE.Line(baseGeo, baseMat);
+  app.scene.add(this.progressBaseLine);
+
+  // fill line (starts at 0)
+  const fillGeo = new THREE.BufferGeometry().setFromPoints([
+    this.progressStart.clone(),
+    this.progressStart.clone()
+  ]);
+  const fillMat = new THREE.LineBasicMaterial({
+    color: 0xff8800,
+    transparent: true,
+    opacity: 0.95
+  });
+  this.progressFillLine = new THREE.Line(fillGeo, fillMat);
+  app.scene.add(this.progressFillLine);
+},
+
+// ------------------------------------------------------------
+// UPDATE PROGRESS LINE + TIME
+// ------------------------------------------------------------
+updateProgress(app) {
+  if (!this.progressStart || !this.progressEnd) return;
+  if (!app.audio.duration || isNaN(app.audio.duration)) return;
+
+  const ratio   = app.audio.currentTime / app.audio.duration;
+  const clamped = Math.max(0, Math.min(1, ratio));
+
+  // current position along the line
+  const pos = this.progressStart.clone().lerp(this.progressEnd, clamped);
+
+  // PROGRESS FILL: from start → current pos
+  if (this.progressFillLine) {
+    const p = this.progressFillLine.geometry.attributes.position;
+
+    p.setXYZ(0,
+      this.progressStart.x,
+      this.progressStart.y,
+      this.progressStart.z
+    );
+
+    p.setXYZ(1,
+      pos.x,
+      pos.y,
+      pos.z
+    );
+
+    p.needsUpdate = true;
+
+    // holographic shimmer
+    const pulse = (Math.sin(app.audio.currentTime * 4) + 1) * 0.5;
+    this.progressFillLine.material.opacity = 0.6 + pulse * 0.3;
+  }
+
+  // TIME
+  const t = Math.floor(app.audio.currentTime);
+  const d = Math.floor(app.audio.duration);
+
+  if (this.timeLabelCurrent) {
+    this.timeLabelCurrent.textContent = this.formatTime(t);
+    const projected = pos.clone().project(app.camera);
+    const sx = (projected.x * 0.5 + 0.5) * window.innerWidth;
+    const sy = (-projected.y * 0.5 + 0.5) * window.innerHeight;
+    this.timeLabelCurrent.style.left = `${sx}px`;
+    this.timeLabelCurrent.style.top  = `${sy}px`;
+  }
+
+  if (this.timeLabelTotal) {
+    this.timeLabelTotal.textContent = this.formatTime(d);
+  }
+
+  const cur = document.getElementById("time-current");
+  const tot = document.getElementById("time-total");
+  if (cur) cur.textContent = this.formatTime(t);
+  if (tot) tot.textContent = this.formatTime(d);
+},
+
+
+// ------------------------------------------------------------
+// FORMAT TIME  ← THIS WAS MISSING (caused your error)
+// ------------------------------------------------------------
+formatTime(sec) {
+  if (!isFinite(sec)) return "0:00";
+  const m = Math.floor(sec / 60);
+  const s = sec % 60;
+  return `${m}:${s.toString().padStart(2, "0")}`;
+},
+
+  // ------------------------------------------------------------
+  // HIGHLIGHT ACTIVE TRACK (compatible with CoverMod)
+// ------------------------------------------------------------
+  highlightActiveTrack(track) {
+    ClusterMod.nodes.forEach(n => {
+      if (n.userData.type === "track") {
+        if (n.material && n.material.color) {
+          n.material.color.set(0x66aaff);
+        }
+        n.userData.glow = false;
+        if (n.userData.glowRing) {
+          n.remove(n.userData.glowRing);
+          n.userData.glowRing = null;
+        }
+      }
+    });
+
+    ClusterMod.nodes.forEach(n => {
+      if (n.userData.type === "track" && n.userData.track === track) {
+        if (n.material && n.material.color) {
+          n.material.color.set(0xffddaa);
+        }
+        n.userData.glow = true;
+        this.addGlowRing(n, 0xffff88, 1.6);
+      }
+    });
+  },
+
+  // ------------------------------------------------------------
+  // GLOW RING HELPER (works for circular covers)
+// ------------------------------------------------------------
+  addGlowRing(node, color = 0x88ff88, scale = 1.4) {
+    if (node.userData.glowRing) return;
+
+    const radius =
+      node.geometry && node.geometry.parameters && node.geometry.parameters.radius
+        ? node.geometry.parameters.radius
+        : 10;
+
+    const geo = new THREE.RingGeometry(radius * scale * 0.9, radius * scale, 64);
+    const mat = new THREE.MeshBasicMaterial({
+      color,
+      transparent: true,
+      opacity: 0.7,
+      side: THREE.DoubleSide
+    });
+
+    const ring = new THREE.Mesh(geo, mat);
+    ring.rotation.x = Math.PI / 2;
+    node.add(ring);
+    node.userData.glowRing = ring;
+  },
+
+// ------------------------------------------------------------
+// NEXT / PREV TRACK
+// ------------------------------------------------------------
+playNext(app) {
+  if (!this.currentTrackNode) return;
+
+  // Determine context: RELATED or ALBUM
+  let contextNodes = [];
+  if (this.relatedMode && this.relatedNodes.length > 0) {
+    contextNodes = this.relatedNodes;
+  } else {
+    const albumNode = this.currentTrackNode.userData.parent;
+    contextNodes = albumNode
+      ? (albumNode.userData.children || []).filter(n => n.userData.type === "track")
+      : [];
+  }
+
+  if (!contextNodes.length) return;
+
+  let idx = contextNodes.indexOf(this.currentTrackNode);
+
+  // SHUFFLE MODE (inside related or album)
+  if (this.shuffle) {
+    let newIndex = idx;
+    while (newIndex === idx && contextNodes.length > 1) {
+      newIndex = Math.floor(Math.random() * contextNodes.length);
+    }
+    idx = newIndex;
+  }
+  // REPEAT MODE (stay on same track)
+  else if (this.repeat) {
+    idx = idx;
+  }
+  // NORMAL MODE
+  else {
+    idx = (idx + 1) % contextNodes.length;
+  }
+
+  const nextNode = contextNodes[idx];
+  this.playTrack(app, nextNode.userData.track, nextNode);
+},
+
+playPrev(app) {
+  if (!this.currentTrackNode) return;
+
+  // Determine context: RELATED or ALBUM
+  let contextNodes = [];
+  if (this.relatedMode && this.relatedNodes.length > 0) {
+    contextNodes = this.relatedNodes;
+  } else {
+    const albumNode = this.currentTrackNode.userData.parent;
+    contextNodes = albumNode
+      ? (albumNode.userData.children || []).filter(n => n.userData.type === "track")
+      : [];
+  }
+
+  if (!contextNodes.length) return;
+
+  let idx = contextNodes.indexOf(this.currentTrackNode);
+
+  // SHUFFLE MODE
+  if (this.shuffle) {
+    let newIndex = idx;
+    while (newIndex === idx && contextNodes.length > 1) {
+      newIndex = Math.floor(Math.random() * contextNodes.length);
+    }
+    idx = newIndex;
+  }
+  // REPEAT MODE
+  else if (this.repeat) {
+    idx = idx;
+  }
+  // NORMAL MODE
+  else {
+    idx = (idx - 1 + contextNodes.length) % contextNodes.length;
+  }
+
+  const prevNode = contextNodes[idx];
+  this.playTrack(app, prevNode.userData.track, prevNode);
+},
+
+// ------------------------------------------------------------
+// RELATED MODE TOGGLE
+// ------------------------------------------------------------
+toggleRelated(app) {
+  if (!this.currentTrackNode) return;
+
+  if (this.relatedMode && this.relatedNodes?.length > 0) {
+    if (this.relatedNodes.includes(this.currentTrackNode)) return;
+  }
+
+  this.buildRelated(app);
+},
+
+// ------------------------------------------------------------
+// CLEAR RELATED MODE
+// ------------------------------------------------------------
+clearRelated(app) {
+  this.relatedMode  = false;
+  this.relatedNodes = [];
+  this.relatedIndex = 0;
+
+  if (this.baseLine) {
+    app.scene.remove(this.baseLine);
+    this.baseLine = null;
+  }
+
+  // clear visuals on all nodes
+  ClusterMod.nodes.forEach(n => {
+    if (n.userData.numberSprite) {
+      n.remove(n.userData.numberSprite);
+      n.userData.numberSprite = null;
+    }
+    if (n.userData.glowRing) {
+      n.remove(n.userData.glowRing);
+      n.userData.glowRing = null;
+    }
+  });
+
+  if (this.currentTrackNode) {
+    this.createProgressBall(app, this.currentTrackNode);
+  }
+},
+
+// ------------------------------------------------------------
+// CREATE CONTINUOUS BASE LINE FOR RELATED PLAYLIST
+// ------------------------------------------------------------
+createRelatedBaseLine(app) {
+  if (this.baseLine) {
+    app.scene.remove(this.baseLine);
+    this.baseLine = null;
+  }
+
+  if (!this.relatedNodes || this.relatedNodes.length < 2) return;
+
+  const points = this.relatedNodes.map(n => n.position.clone());
+  const geo = new THREE.BufferGeometry().setFromPoints(points);
+  const mat = new THREE.LineBasicMaterial({ color: 0x334466 });
+
+  this.baseLine = new THREE.Line(geo, mat);
+  app.scene.add(this.baseLine);
+},
+
+// ------------------------------------------------------------
+// BUILD RELATED — SAME GENRE, CROSS BAND/ALBUM (PAGE-LOCAL)
+// ------------------------------------------------------------
+async buildRelated(app) {
+  if (!this.currentTrackNode) return;
+
+  const currentNode      = this.currentTrackNode;
+  const currentTrack     = currentNode.userData.track;
+  const currentAlbumNode = currentNode.userData.parent;
+  const currentBandNode  = currentAlbumNode?.userData.parent;
+
+  const currentAlbum = currentAlbumNode?.userData.album;
+  const currentBand  = currentBandNode?.userData.band;
+
+  // Detect genre
+  function normalizeGenre(g) {
+    if (!g) return [];
+    if (Array.isArray(g)) return g.map(s => s.toLowerCase());
+    return g.toLowerCase().split(/[,/]/).map(s => s.trim());
+  }
+
+  const genres = [
+    ...normalizeGenre(currentTrack?.genre),
+    ...normalizeGenre(currentAlbum?.genre),
+    ...normalizeGenre(currentBand?.genre)
+  ];
+
+  if (!genres.length) return;
+
+  // ------------------------------------------------------------
+  // 1. FIND SAME-GENRE BANDS (LIMIT TO 3, CURRENT PAGE ONLY)
+  // ------------------------------------------------------------
+  // only bands that are actually visible (current page)
+  const allBandNodes = ClusterMod.nodes.filter(
+    n => n.userData.band && n.visible
+  );
+
+  const sameGenreBands = allBandNodes
+    .filter(b => {
+      const bandGenres = normalizeGenre(b.userData.band.genre);
+      return bandGenres.some(bg =>
+        genres.some(g => bg.includes(g) || g.includes(bg))
+      );
+    })
+    .slice(0, 3);
+
+  if (!sameGenreBands.length) return;
+
+  // ------------------------------------------------------------
+  // 2. FORCE EXPAND 3 ALBUMS + ALL TRACKS FOR EACH BAND
+  // ------------------------------------------------------------
+  for (let bandNode of sameGenreBands) {
+    ClusterMod.forceExpandAlbums(app, bandNode);
+
+    const albums = bandNode.userData.children.slice(0, 3);
+    for (let albumNode of albums) {
+      await ClusterMod.forceExpandTracks(app, albumNode);
+    }
+  }
+
+  // ------------------------------------------------------------
+  // 3. COLLECT ALL EXPANDED TRACKS
+  // ------------------------------------------------------------
+  const expandedTracks = [];
+
+  sameGenreBands.forEach(bandNode => {
+    bandNode.userData.children.slice(0, 3).forEach(albumNode => {
+      albumNode.userData.children.forEach(trackNode => {
+        expandedTracks.push(trackNode);
+      });
+    });
+  });
+
+  if (!expandedTracks.length) return;
+
+  // ------------------------------------------------------------
+  // 4. RANDOMIZE AND PICK 20
+  // ------------------------------------------------------------
+  let selected = [...expandedTracks].sort(() => Math.random() - 0.5);
+
+  if (!selected.includes(currentNode)) {
+    selected.unshift(currentNode);
+  }
+
+  this.relatedNodes = selected.slice(0, 20);
+  this.relatedMode  = true;
+
+  this.relatedIndex = this.relatedNodes.indexOf(currentNode);
+  if (this.relatedIndex < 0) this.relatedIndex = 0;
+
+  // ------------------------------------------------------------
+  // DEBUG LOG — SHOW 20 TRACKS SELECTED FOR RELATED MODE
+  // ------------------------------------------------------------
+  console.log("RELATED:");
+  this.relatedNodes.forEach((node, i) => {
+    const track  = node.userData.track;
+    const album  = node.userData.parent?.userData.album;
+    const band   = node.userData.parent?.userData.parent?.userData.band;
+
+    console.log(
+      `${i + 1}. ${band?.name || "Band"} — ${album?.title || "Album"} — ${track?.title || "Track"}`
+    );
+  });
+
+  // ------------------------------------------------------------
+  // 5. CLEAR OLD VISUALS ON EXPANDED TRACKS
+  // ------------------------------------------------------------
+  expandedTracks.forEach(n => {
+    if (n.userData.numberSprite) {
+      n.remove(n.userData.numberSprite);
+      n.userData.numberSprite = null;
+    }
+    if (n.userData.glowRing) {
+      n.remove(n.userData.glowRing);
+      n.userData.glowRing = null;
+    }
+  });
+
+  // ------------------------------------------------------------
+  // 6. ADD GLOW + NUMBERS
+  // ------------------------------------------------------------
+  const colors = [0x88ff88, 0x88ffff, 0xffdd88, 0xff88ff, 0x88aaff];
+
+  this.relatedNodes.forEach((node, i) => {
+    ClusterMod.addGlowRing(node, colors[i % colors.length], 1.5);
+    ClusterMod.addNumberSprite(app, node, i + 1);
+  });
+
+  // ------------------------------------------------------------
+  // 7. DRAW LINE
+  // ------------------------------------------------------------
+  this.createRelatedBaseLine(app);
+
+  // ------------------------------------------------------------
+  // 8. PLAY ACTIVE TRACK
+  // ------------------------------------------------------------
+  const activeNode = this.relatedNodes[this.relatedIndex];
+  this.playTrack(app, activeNode.userData.track, activeNode);
+},
+
+
+  // ------------------------------------------------------------
+  // LYRICS
+  // ------------------------------------------------------------
+  showLyrics(app) {
+    const path = app.currentLyricsPath;
+    if (!path) return;
+
+    fetch(path)
+      .then(r => r.text())
+      .then(text => {
+        if (window.CosmicText) CosmicText.show(text);
+      });
+  },
+
+  // ------------------------------------------------------------
+  // UI TITLE (ARTIST • ALBUM • TRACK)
+// ------------------------------------------------------------
+  updateTitle(app, track) {
+    const titleEl = document.getElementById("track-title");
+    if (!titleEl) return;
+
+    const albumNode = this.currentTrackNode?.userData.parent;
+    const bandNode = albumNode?.userData.parent;
+
+    const artist = bandNode?.userData.band?.name || "Unknown Artist";
+    const album  = albumNode?.userData.album?.title || "Unknown Album";
+    const title  = track.title || "Untitled";
+
+    titleEl.textContent = `${artist} • ${album} • ${title}`;
+  },
+
+  // ------------------------------------------------------------
+  // UPDATE CONTROL BAR (if bottom bar exists)
+// ------------------------------------------------------------
+  updateControlBar(track) {
+    const el = document.getElementById("control-track-title");
+    if (el) el.textContent = track.title;
+  }
+};

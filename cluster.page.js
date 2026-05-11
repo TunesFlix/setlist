@@ -1,1 +1,173 @@
-function a4_0x2ff4(){const _0x1e9d92=['getElementById','filter','ceil','min','bandNodes','currentTrackNode','27640071iJUdFp','8742520zALKqD','0.3','setBranchVisible','progressBaseLine','2760600QATGLb','visible','parent','page','1000ipaCTj','246LGvjPt','nodes','showPage','style','textContent','4870516qhoZEW','perPage','none','lines','page-prev','opacity','timeLabelTotal','app','page-number','display','length','slice','progressFillLine','23864PnCaMg','userData','page-next','max','block','forEach','band','309511mTwChi','36771MoUASB','timeLabelCurrent','totalPages','children'];a4_0x2ff4=function(){return _0x1e9d92;};return a4_0x2ff4();}(function(_0x48c2c0,_0x51a17b){const _0x537e9c=a4_0x25ef,_0x3b75c0=_0x48c2c0();while(!![]){try{const _0x5b3990=-parseInt(_0x537e9c(0x8c))/0x1+parseInt(_0x537e9c(0x73))/0x2*(parseInt(_0x537e9c(0x8d))/0x3)+-parseInt(_0x537e9c(0x85))/0x4*(parseInt(_0x537e9c(0x72))/0x5)+-parseInt(_0x537e9c(0x6e))/0x6+-parseInt(_0x537e9c(0x78))/0x7+-parseInt(_0x537e9c(0x6a))/0x8+parseInt(_0x537e9c(0x69))/0x9;if(_0x5b3990===_0x51a17b)break;else _0x3b75c0['push'](_0x3b75c0['shift']());}catch(_0x17b1ef){_0x3b75c0['push'](_0x3b75c0['shift']());}}}(a4_0x2ff4,0xc9fb4));function a4_0x25ef(_0x12bc06,_0xc6dd9c){_0x12bc06=_0x12bc06-0x67;const _0x2ff42f=a4_0x2ff4();let _0x25efbe=_0x2ff42f[_0x12bc06];return _0x25efbe;}const ClusterPageMod={'page':0x1,'perPage':0xa,'totalPages':0x1,'bandNodes':[],'app':null,'init'(_0x54cddd){const _0x15ceb2=a4_0x25ef;this[_0x15ceb2(0x7f)]=_0x54cddd,this[_0x15ceb2(0x67)]=ClusterMod[_0x15ceb2(0x74)][_0x15ceb2(0x92)](_0x4d909a=>_0x4d909a[_0x15ceb2(0x86)]['type']===_0x15ceb2(0x8b)),this[_0x15ceb2(0x8f)]=Math[_0x15ceb2(0x88)](0x1,Math[_0x15ceb2(0x93)](this[_0x15ceb2(0x67)][_0x15ceb2(0x82)]/this[_0x15ceb2(0x79)])),this[_0x15ceb2(0x75)](0x1);},'showPage'(_0x14a4d9){const _0x2b77ee=a4_0x25ef;if(!this[_0x2b77ee(0x7f)])return;this[_0x2b77ee(0x71)]=Math[_0x2b77ee(0x94)](Math['max'](_0x14a4d9,0x1),this[_0x2b77ee(0x8f)]);const _0x3e9578=(this[_0x2b77ee(0x71)]-0x1)*this[_0x2b77ee(0x79)],_0x2c01d9=_0x3e9578+this['perPage'];this['bandNodes'][_0x2b77ee(0x8a)](_0x3d923a=>{const _0x107480=_0x2b77ee;this[_0x107480(0x6c)](_0x3d923a,![]);}),this['bandNodes'][_0x2b77ee(0x83)](_0x3e9578,_0x2c01d9)[_0x2b77ee(0x8a)](_0x3a13b7=>{this['setBranchVisible'](_0x3a13b7,!![]);});if(this[_0x2b77ee(0x71)]!==0x1){if(AudioMod[_0x2b77ee(0x8e)])AudioMod[_0x2b77ee(0x8e)][_0x2b77ee(0x76)][_0x2b77ee(0x81)]=_0x2b77ee(0x7a);if(AudioMod[_0x2b77ee(0x7e)])AudioMod[_0x2b77ee(0x7e)][_0x2b77ee(0x76)][_0x2b77ee(0x81)]=_0x2b77ee(0x7a);if(AudioMod[_0x2b77ee(0x6d)])AudioMod[_0x2b77ee(0x6d)][_0x2b77ee(0x6f)]=![];if(AudioMod[_0x2b77ee(0x84)])AudioMod[_0x2b77ee(0x84)][_0x2b77ee(0x6f)]=![];}else{if(AudioMod[_0x2b77ee(0x68)]){if(AudioMod[_0x2b77ee(0x8e)])AudioMod[_0x2b77ee(0x8e)][_0x2b77ee(0x76)][_0x2b77ee(0x81)]=_0x2b77ee(0x89);if(AudioMod[_0x2b77ee(0x7e)])AudioMod[_0x2b77ee(0x7e)]['style'][_0x2b77ee(0x81)]=_0x2b77ee(0x89);if(AudioMod[_0x2b77ee(0x6d)])AudioMod[_0x2b77ee(0x6d)][_0x2b77ee(0x6f)]=!![];if(AudioMod[_0x2b77ee(0x84)])AudioMod[_0x2b77ee(0x84)][_0x2b77ee(0x6f)]=!![];}}this['updateButtons']();const _0x57fbcf=document[_0x2b77ee(0x91)](_0x2b77ee(0x80));if(_0x57fbcf)_0x57fbcf['textContent']=this[_0x2b77ee(0x71)];},'setBranchVisible'(_0x51b7ce,_0x30f5cb){const _0x582e67=a4_0x25ef;if(!_0x51b7ce)return;_0x51b7ce['visible']=_0x30f5cb,_0x51b7ce[_0x582e67(0x86)]?.[_0x582e67(0x7b)]&&_0x51b7ce[_0x582e67(0x86)][_0x582e67(0x7b)][_0x582e67(0x8a)](_0x52760f=>{const _0x3d9a21=_0x582e67;_0x52760f[_0x3d9a21(0x6f)]=_0x30f5cb;}),ClusterMod[_0x582e67(0x74)][_0x582e67(0x8a)](_0x5c52fd=>{const _0x4cd1c4=_0x582e67;_0x5c52fd[_0x4cd1c4(0x86)]?.[_0x4cd1c4(0x7b)]&&_0x5c52fd['userData']['lines'][_0x4cd1c4(0x8a)](_0x49d7aa=>{const _0xbe7abf=_0x4cd1c4,_0x5711ed=_0x49d7aa[_0xbe7abf(0x86)]?.[_0xbe7abf(0x70)],_0x4181b6=_0x49d7aa[_0xbe7abf(0x86)]?.['child'];(_0x5711ed===_0x51b7ce||_0x4181b6===_0x51b7ce)&&(_0x49d7aa[_0xbe7abf(0x6f)]=_0x30f5cb);});}),_0x51b7ce['userData']?.['children']&&_0x51b7ce['userData'][_0x582e67(0x90)]['forEach'](_0x36a084=>{const _0x343950=_0x582e67;this[_0x343950(0x6c)](_0x36a084,_0x30f5cb);});},'next'(){const _0x4efeac=a4_0x25ef;this[_0x4efeac(0x75)](this[_0x4efeac(0x71)]+0x1);},'prev'(){const _0x2e514e=a4_0x25ef;this[_0x2e514e(0x75)](this[_0x2e514e(0x71)]-0x1);},'updateButtons'(){const _0x20e7ce=a4_0x25ef,_0x1c8330=document[_0x20e7ce(0x91)](_0x20e7ce(0x7c)),_0xc2410a=document[_0x20e7ce(0x91)](_0x20e7ce(0x87)),_0x662236=document[_0x20e7ce(0x91)](_0x20e7ce(0x80));if(_0x1c8330)_0x1c8330[_0x20e7ce(0x76)]['opacity']=this[_0x20e7ce(0x71)]===0x1?_0x20e7ce(0x6b):'1';if(_0xc2410a)_0xc2410a[_0x20e7ce(0x76)][_0x20e7ce(0x7d)]=this['page']===this['totalPages']?'0.3':'1';if(_0x662236)_0x662236[_0x20e7ce(0x77)]=this['page'];}};
+// ------------------------------------------------------------
+// cluster.page.js — VISIBILITY PAGING USING PRELOADED NODES
+// ------------------------------------------------------------
+const ClusterPageMod = {
+  page: 1,
+  perPage: 10,
+  totalPages: 1,
+  bandNodes: [],
+  app: null,
+
+  init(app) {
+    this.app = app;
+
+    // ⭐ GET ALL BAND NODES FROM PRELOADED GALAXY
+    this.bandNodes = ClusterMod.nodes.filter(n => n.userData.type === "band");
+
+    // ⭐ COMPUTE TOTAL PAGES
+    this.totalPages = Math.max(1, Math.ceil(this.bandNodes.length / this.perPage));
+
+    // ⭐ SHOW FIRST PAGE
+    this.showPage(1);
+  },
+
+// ------------------------------------------------------------
+// SHOW ONLY BANDS FOR CURRENT PAGE
+// ------------------------------------------------------------
+showPage(page) {
+
+  // ------------------------------------------------------------
+  // PAGE NUMBER
+  // ------------------------------------------------------------
+  if (!this.app) return;
+
+  this.page = Math.min(Math.max(page, 1), this.totalPages);
+
+  const start = (this.page - 1) * this.perPage;
+  const end   = start + this.perPage;
+
+
+  // ------------------------------------------------------------
+  // HIDE ALL BANDS
+  // ------------------------------------------------------------
+  this.bandNodes.forEach(bandNode => {
+    this.setBranchVisible(bandNode, false);
+  });
+
+
+  // ------------------------------------------------------------
+  // SHOW ONLY BANDS FOR THIS PAGE
+  // ------------------------------------------------------------
+  this.bandNodes.slice(start, end).forEach(bandNode => {
+    this.setBranchVisible(bandNode, true);
+  });
+
+
+  // ------------------------------------------------------------
+  // PAGE‑AWARE PROGRESS UI VISIBILITY
+  // ------------------------------------------------------------
+  const currentNode = AudioMod.currentTrackNode;
+
+  if (!currentNode) {
+    // No track playing → hide everything
+    if (AudioMod.timeLabelCurrent) AudioMod.timeLabelCurrent.style.display = "none";
+    if (AudioMod.timeLabelTotal)   AudioMod.timeLabelTotal.style.display = "none";
+    if (AudioMod.progressBaseLine) AudioMod.progressBaseLine.visible = false;
+    if (AudioMod.progressFillLine) AudioMod.progressFillLine.visible = false;
+
+  } else {
+
+    // Find the band node of the currently playing track
+    const currentBandNode =
+      currentNode.userData.parent?.userData.parent;
+
+    // Is that band visible on this page?
+    const bandIsVisible = currentBandNode?.visible === true;
+
+    if (!bandIsVisible) {
+      // Hide UI if the band is NOT on this page
+      if (AudioMod.timeLabelCurrent) AudioMod.timeLabelCurrent.style.display = "none";
+      if (AudioMod.timeLabelTotal)   AudioMod.timeLabelTotal.style.display = "none";
+      if (AudioMod.progressBaseLine) AudioMod.progressBaseLine.visible = false;
+      if (AudioMod.progressFillLine) AudioMod.progressFillLine.visible = false;
+
+    } else {
+      // Show UI if the band IS on this page
+      if (AudioMod.timeLabelCurrent) AudioMod.timeLabelCurrent.style.display = "block";
+      if (AudioMod.timeLabelTotal)   AudioMod.timeLabelTotal.style.display = "block";
+      if (AudioMod.progressBaseLine) AudioMod.progressBaseLine.visible = true;
+      if (AudioMod.progressFillLine) AudioMod.progressFillLine.visible = true;
+    }
+  }
+
+
+  // ------------------------------------------------------------
+  // HIDE RELATED BASE LINE IF CURRENT BAND IS NOT VISIBLE
+  // ------------------------------------------------------------
+  if (AudioMod.baseLine) {
+    const currentNode = AudioMod.currentTrackNode;
+    const currentBandNode = currentNode?.userData?.parent?.userData?.parent;
+    const bandIsVisible = currentBandNode?.visible === true;
+
+    AudioMod.baseLine.visible = bandIsVisible;
+  }
+
+
+  // ------------------------------------------------------------
+  // UPDATE UI BUTTONS
+  // ------------------------------------------------------------
+  this.updateButtons();
+  const num = document.getElementById("page-number");
+  if (num) num.textContent = this.page;
+},
+
+
+
+  // ------------------------------------------------------------
+  // RECURSIVE VISIBILITY FOR BAND → ALBUMS → TRACKS
+  // ------------------------------------------------------------
+setBranchVisible(node, visible) {
+  if (!node) return;
+
+  // hide/show the node itself
+  node.visible = visible;
+
+  // hide/show all lines attached to this node
+  if (node.userData?.lines) {
+    node.userData.lines.forEach(line => {
+      line.visible = visible;
+    });
+  }
+
+  // hide/show any lines that reference this node as parent or child
+  ClusterMod.nodes.forEach(n => {
+    if (n.userData?.lines) {
+      n.userData.lines.forEach(line => {
+        const p = line.userData?.parent;
+        const c = line.userData?.child;
+        if (p === node || c === node) {
+          line.visible = visible;
+        }
+      });
+    }
+  });
+
+  // recursively hide/show children
+  if (node.userData?.children) {
+    node.userData.children.forEach(child => {
+      this.setBranchVisible(child, visible);
+    });
+  }
+},
+
+  // ------------------------------------------------------------
+  // NAVIGATION
+  // ------------------------------------------------------------
+  next() {
+    this.showPage(this.page + 1);
+  },
+
+  prev() {
+    this.showPage(this.page - 1);
+  },
+
+  updateButtons() {
+    const prev = document.getElementById("page-prev");
+    const next = document.getElementById("page-next");
+    const num  = document.getElementById("page-number");
+
+    if (prev) prev.style.opacity = this.page === 1 ? "0.3" : "1";
+    if (next) next.style.opacity = this.page === this.totalPages ? "0.3" : "1";
+    if (num)  num.textContent = this.page;
+  }
+};
