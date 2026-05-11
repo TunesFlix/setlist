@@ -123,9 +123,6 @@ window.MovementMod = {
 // ------------------------------------------------------------
 // MOVE CLUSTER (BAND + ALBUMS + TRACKS) AND RESYNC PROGRESS
 // ------------------------------------------------------------
-// ------------------------------------------------------------
-// MOVE CLUSTER (BAND + ALBUMS + TRACKS) AND RESYNC PROGRESS
-// ------------------------------------------------------------
 moveCluster(bandNode, delta) {
   const app = this.app;   // ⭐ get stored app
   if (!app) return;
